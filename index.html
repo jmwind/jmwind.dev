@@ -6,22 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Building from the right side of the brain - by Jean-Michel Lemieux</title>
-    <meta name="author" content="Jean-Michel Lemieux" />
-    <meta name="description" content="description here" />
-    <meta name="keywords" content="keywords,here" />
+    <meta name="author" content="Jean-Michel Lemieux" />    
     <link rel="shortcut icon" href="favicon.ico?v2" type="image/x-icon" />
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
 </head>
 
 <body class="bg-gray-100 font-sans leading-normal tracking-normal">
-    <nav id="header" class="fixed w-full z-10 top-0">
+    <nav id="header" class="fixed w-full top-0">
         <div id="progress" class="h-1 z-20 top-0"
             style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
         <div class="w-full md:max-w-4xl mx-auto flex flex-wrap items-center justify-between mt-0 py-3">
-            <div class="pl-4 flex flex-wrap items-center justify-between">    
-                <img class="w-10" src="images/logo.png">            
-                <a class="p-3 text-gray-900 no-underline hover:no-underline font-extrabold sm:text-3xl " href="#">
-                    Building from the right side of the brain
+            <div class="pl-4 flex flex-wrap items-center justify-between">
+                <img class="w-10" src="images/logo.png">
+                <a class="p-3 text-gray-900 no-underline hover:no-underline font-extrabold sm:text-2xl " href="#">
+                    Building from the right side
                 </a>
             </div>
             <div class="pl-4 px-2 p-1">
@@ -41,24 +39,22 @@
     <!--Container-->
     <div class="container w-full md:max-w-3xl mx-auto pt-20">
 
-        <div class="w-full px-2 md:px-4 text-xl text-gray-800 leading-normal"
+        <div id="nav-content" class="w-full px-2 md:px-4 text-xl text-gray-800 leading-normal  -scroll-mt-10"
             style="font-family:Pratt,Georgia,Palatino,Book Antiqua,Times New Roman,serif;">
 
             <p class="py-4">
                 This site and my writings are influenced by the book <a class="underline text-red-600"
                     href="https://twitter.com/jmwind/status/1383050070937980929?s=20">Drawing from the right side of the
                     brain</a>.
-                While drawing was never my profession, learning to draw helped me see things that often others around me often didn't
+                While drawing was never my profession, learning to draw helped me see things that others around me often
+                didn't
                 see.
             </p>
-            <p class="py-4">Granted, I'm still blind and have rose coloured glasses, but
-                my writings and interests are squarely focused on training my perpection skills and sharing what I see
-                with others so that
-                we can all get better together.</p>
-
-
+            <p id="book" class="py-4">I'm still learning to see, but
+                my writings and interests are squarely focused on training my perception skills and sharing what I see
+                with others so that we can all get better together.</p>
             <!--Lead Para-->
-            <div id="book" class="-scroll-m-15">
+            <div>
                 <h1
                     class="py-2 font-sans text-gray-900 text-base no-underline hover:no-underline font-extrabold text-xl">
                     Book</h1>
@@ -68,14 +64,14 @@
                         2005</a>, it was painful but one of the most rewarding experiences of my life. At the time my
                     kids
                     were aged 1 and 3 and my timing was terrible. I was away from them a lot writing at night and
-                    working during the day. Now I've got more time.
+                    working during the day. I swore, never again.
                     <br /><br />
-                    But I don't want to go away, write, and then publish everything all at once hoping that it was
+                    17 years later and time has returned....but I don't want to go away, write, and then publish everything all at once hoping that it was
                     useful. Instead I've decided
                     to write a book in pieces. Just the salient parts as a series of threads on Twitter.
                     <br /><br />
-                    Each micro-chapter starts with a question and answer. This format comes easily from conversions that
-                    I've had over the years. It also means less preamble, we can just jump into an answer!
+                    Each micro-chapter starts with a question and answer. This format comes easily from conversations that
+                    I've had over the years. It also means less preamble, we can simply jump into an answer!
                     <br /><br />
                     I'm hopeful that micro-writing will force me to be succint and to the point. Let me know if these
                     are useful and I'll keep publishing them.
@@ -86,7 +82,7 @@
                             href="https://twitter.com/jmwind/status/1460284795150225409?s=20">How do you handle/manage
                             the stress of working in a hyper-growth company where there's always too much to do?</a>
                     </li>
-                    <li class="">
+                    <li id="about" class="">
                         Chapter 2: <a class="underline text-red-600"
                             href="https://twitter.com/jmwind/status/1470894712538103813?s=20">How much of your r&d spend
                             should be focused on platform work?</a>
@@ -99,89 +95,95 @@
                 </ol>
             </div>
 
-            <div id="about" class="-scroll-m-15">
+            <div class="-scroll-m-15">
                 <h1
                     class="py-2 font-sans text-gray-900 text-base no-underline hover:no-underline font-extrabold text-xl">
                     About</h1>
                 <div class="grid grid-cols-3 gap-3">
                     <div class="col-span-2">
                         <p class="py-2">
-                            Hi, nice to meet you. My name is I'm Jean-Michel. I've worked in tech for 27 years, building
+                            Hi, nice to meet you. My name is Jean-Michel. I've worked in tech for 27 years, building
                             software and then building teams and companies.</p>
                         <p class="py-2">
-                            I was a founding member of the Eclipse platform and open source team, 
+                            I was a founding member of the Eclipse platform and open source team,
                             and then led engineering at Atlassian and Shopify.
                         </p>
-                        </div>
-                        <div class=""><img src="images/me.png"></div>
-                        <div class="col-span-3">
+                    </div>
+                    <div class=""><img src="images/me.png"></div>
+                    <div class="col-span-3">
                         <p class="py-2">
-                            I also co-founded <a class="underline text-red-600" href="https://canadiantechatscale.com/">Canadian Tech @ Scale</a> which brings together tech leaders from across
-                            Canada and founded <a class="underline text-red-600" href="devdegree.ca">DevDegree.ca</a> which is a a computer science degree unlike any other.
+                            I also co-founded <a class="underline text-red-600"
+                                href="https://canadiantechatscale.com/">Canadian Tech @ Scale</a> which brings together
+                            tech leaders from across
+                            Canada and founded <a class="underline text-red-600" href="devdegree.ca">DevDegree.ca</a>
+                            which is a computer science degree unlike any other.
                         </p>
                         <p class="py-2">
                             I've built and led teams of 1 to 4,000 and loved every minute of it. I'm dedicating the rest
                             of my career to helping those following in my footsteps.
                         </p>
-                        </div>
                     </div>
-                    
                 </div>
-                <p class="py-6">
-                    Here's some recent interviews and talks:
-                </p>
-                <ol class="py-4">
-                    <li>
-                        🎥 <a class="underline text-red-600" href="https://www.youtube.com/watch?v=bzJfPeslk8I">Bot
-                            Devevelopers confront @jmwind</a> (2021 - 1h11m)
-                    </li>
-                    <li>
-                        🎥 <a class="underline text-red-600" href="https://vimeo.com/456735890">Shopify: How we get shit
-                            done</a> (2020 - 20m)
-                    </li>
-                    <li>
-                        🎙 <a class="underline text-red-600"
-                            href="https://fellow.app/supermanagers/jean-michel-lemieux-shopify-building-a-connected-network-of-brains/">Supermanagers:
-                            Building a Connected Network of Brains</a> (2019 - 42m)
-                    </li>
-                    <li>
-                        🎥 <a class="underline text-red-600" href="https://www.youtube.com/watch?v=Th7XN__ltyc">An
-                            insiders look at the technology that powers Shopify</a> (2020 - 32m)
-                    </li>
-                    <li>
-                        📝 <a class="underline text-red-600"
-                            href="https://shopify.engineering/dev-degree-a-big-bet-on-software-education">DevDegree: A big bet on software education</a> (2018)
-                    </li>
-                    <li>
-                        🎥 <a class="underline text-red-600"
-                            href="https://www.youtube.com/watch?v=16aDxRIrPE8">Leading your teams with maps</a> (2017 - 35m)
-                    </li>
-                    <li>
-                        📝 <a class="underline text-red-600"
-                            href="https://www.theglobeandmail.com/business/commentary/article-how-to-sustain-canadas-brain-gain/">Globe and Mail: How to sustain Canadas brain drain</a> (2018)
-                    </li>
-                    <li>
-                        📝 <a class="underline text-red-600"
-                            href="https://www.theglobeandmail.com/business/commentary/article-for-tech-workers-its-about-more-than-money/">Globe and Mail: For tech workers its about more than money</a> (2018)
-                    </li>
-                    <li>
-                        🎙 <a class="underline text-red-600"
-                            href="https://alphalist.com/podcast/15-jean-michel-lemieux-cto-shopify">Alphalist podcast:
-                            Building software at scale</a> (2019 - 1h20m)
-                    </li>
-                    <li>
-                        🎙 <a class="underline text-red-600"
-                            href="https://moderncto.io/167-jean-michel-lemieux-cto-shopify/">ModernCTO: Building a
-                            product centered culture</a> (2018 - 55m)
-                    </li>
-                    <li>
-                        🎥 <a class="underline text-red-600"
-                            href="https://www.youtube.com/watch?v=AK8gnNwcMOg">dotScale: Extensibility as a Product</a>
-                        (2014)
-                    </li>   
-                </ol>
+
             </div>
+            <p class="py-6">
+                Here are some recent interviews and talks:
+            </p>
+            <ol class="py-4">
+                <li>
+                    🎥 <a class="underline text-red-600" href="https://www.youtube.com/watch?v=bzJfPeslk8I">Bot
+                        Devevelopers confront @jmwind</a> (2021 - 1h11m)
+                </li>
+                <li>
+                    🎥 <a class="underline text-red-600" href="https://vimeo.com/456735890">Shopify: How we get shit
+                        done</a> (2020 - 20m)
+                </li>
+                <li>
+                    🎙 <a class="underline text-red-600"
+                        href="https://fellow.app/supermanagers/jean-michel-lemieux-shopify-building-a-connected-network-of-brains/">Supermanagers:
+                        Building a Connected Network of Brains</a> (2019 - 42m)
+                </li>
+                <li>
+                    🎥 <a class="underline text-red-600" href="https://www.youtube.com/watch?v=Th7XN__ltyc">An
+                        insiders look at the technology that powers Shopify</a> (2020 - 32m)
+                </li>
+                <li>
+                    📝 <a class="underline text-red-600"
+                        href="https://shopify.engineering/dev-degree-a-big-bet-on-software-education">DevDegree: A big
+                        bet on software education</a> (2018)
+                </li>
+                <li>
+                    🎥 <a class="underline text-red-600" href="https://www.youtube.com/watch?v=16aDxRIrPE8">Leading your
+                        teams with maps</a> (2017 - 35m)
+                </li>
+                <li>
+                    📝 <a class="underline text-red-600"
+                        href="https://www.theglobeandmail.com/business/commentary/article-how-to-sustain-canadas-brain-gain/">Globe
+                        and Mail: How to sustain Canadas brain drain</a> (2018)
+                </li>
+                <li>
+                    📝 <a class="underline text-red-600"
+                        href="https://www.theglobeandmail.com/business/commentary/article-for-tech-workers-its-about-more-than-money/">Globe
+                        and Mail: For tech workers its about more than money</a> (2018)
+                </li>
+                <li>
+                    🎙 <a class="underline text-red-600"
+                        href="https://alphalist.com/podcast/15-jean-michel-lemieux-cto-shopify">Alphalist podcast:
+                        Building software at scale</a> (2019 - 1h20m)
+                </li>
+                <li>
+                    🎙 <a class="underline text-red-600"
+                        href="https://moderncto.io/167-jean-michel-lemieux-cto-shopify/">ModernCTO: Building a
+                        product centered culture</a> (2018 - 55m)
+                </li>
+                <li>
+                    🎥 <a class="underline text-red-600" href="https://www.youtube.com/watch?v=AK8gnNwcMOg">dotScale:
+                        Extensibility as a Product</a>
+                    (2014)
+                </li>
+            </ol>
         </div>
+    </div>
     </div>
     <!--/container-->
 
@@ -212,7 +214,7 @@
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                            </svg></a>                        
+                            </svg></a>
                     </div>
                     <p class="inline-block text-gray-400 py-2 px-2">&copy; Copyright 2021, Jean-Michel Lemieux</p>
                 </div>
@@ -231,7 +233,6 @@
             scroll;
         var scrollpos = window.scrollY;
         var header = document.getElementById("header");
-        var navcontent = document.getElementById("nav-content");
 
         document.addEventListener('scroll', function () {
 
@@ -245,23 +246,12 @@
             if (scrollpos > 10) {
                 header.classList.add("bg-white");
                 header.classList.add("shadow");
-                navcontent.classList.remove("bg-gray-100");
-                navcontent.classList.add("bg-white");
             } else {
                 header.classList.remove("bg-white");
                 header.classList.remove("shadow");
-                navcontent.classList.remove("bg-white");
-                navcontent.classList.add("bg-gray-100");
-
             }
 
         });
-
-
-        //Javascript to toggle the menu
-        document.getElementById('nav-toggle').onclick = function () {
-            document.getElementById("nav-content").classList.toggle("hidden");
-        }
     </script>
 
 </body>
