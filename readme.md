@@ -9,9 +9,19 @@ Website is hosted at [buildrightside.com](https://buildrightside.com).
 
 ## Installation
 
-There are no dependencies to install outside of a modern web browser 🤯.
+There are no dependencies to install outside of a modern web browser 🤯. Oh, well there is one local install for the Tailwind CLI:
 
-Clone and open the index.html file in your browser. 
+```bash
+npm install -g tailwindcss
+```
+
+Then generate the css as follows
+
+```bash
+npx tailwindcss -o styles.css --minify
+```
+
+Then open the index.html file in your browser. 
 
 ## Contributing
 
