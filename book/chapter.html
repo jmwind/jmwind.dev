@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/scroll.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.0/showdown.min.js"></script>
+    <script type="module" src="/main.js"></script>    
+    <script type="module">
+        import {loadContent} from '/main.js';
+        const params = new URLSearchParams(window.location.search)
+        loadContent(document, `chapter${params.get("num")}.md`);
+    </script>
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <rs-header></rs-header>
+    <div class="container w-full md:max-w-3xl mx-auto pt-20">
+        <div id="nav-content" class="w-full px-2 md:px-4 text-l text-gray-800 leading-normal"
+            style="font-family:Pratt,Georgia,Palatino,Book Antiqua,Times New Roman,serif;">                        
+            <div id="content"></div>
+        </div>
+    </div>
+    <rs-footer></rs-footer>    
+</body>
+</html>

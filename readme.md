@@ -23,6 +23,18 @@ npx tailwindcss -o styles.css --minify
 
 Then open the index.html file in your browser. 
 
+## Tools
+
+While Twitter is convinient for now and where my main audience lives, it's important to not
+have a long term dependency. All tweet threads are pulled and stored on this website so that
+in case Twitter goes away the content is still available.
+
+I'm using [Tweet to Markdown](https://github.com/kbravh/tweet-to-markdown) to convert the threads.
+
+```bash
+npx tweet-to-markdown -t https://twitter.com/jmwind/status/1493569419980673026 -b <bearer token> -a
+```
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
