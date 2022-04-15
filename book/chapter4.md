@@ -4,9 +4,9 @@
 
 Another common question I’m answering working with scaling tech companies is…
 
-Q. What’s the worst leadership advice you’ve heard?
+Question: What’s the worst leadership advice you’ve heard?
 
-A. By far the worst is “Hire great people and get out of their way”. Let me explain… 
+Answer: By far the worst is “Hire great people and get out of their way”.
 
 ![3_1493569299797078020](chapter4-assets/3_1493569299797078020.jpg)
 
@@ -47,7 +47,7 @@ Strategy 2: when do we leave and why? What kind of boat and why? What systems do
 
 Strategy is multi-faceted and evolving.  You can discuss this strategy in depth, but not do the trip together.
 
-The biggest alignment problem is the gap between how much people think they have to align versus what they should align on. There are many strategic decisions in the "how". eg, what technologies to use, new system vs integration, build in core or in an app. [pic.twitter.com/6lmIkvNryk](https://twitter.com/jmwind/status/1493569361621176323/photo/1)
+The biggest alignment problem is the gap between how much people think they have to align versus what they should align on. There are many strategic decisions in the "how". eg, what technologies to use, new system vs integration, build in core or in an app. 
 
 ![3_1493569356487299074](chapter4-assets/3_1493569356487299074.jpg)
 
@@ -61,7 +61,7 @@ So...when you hire someone or you have a new leader, your number one job is alig
 
 There is so much research on pair programming, yet we don’t have the same cultural acceptance of pairing in leadership. But paired leadership is mandatory. 
 
-[researchgate.net/publication/27…](https://www.researchgate.net/publication/27295641_The_Case_for_Collaborative_Programming)
+If you read [the case for pair programming](https://www.researchgate.net/publication/27295641_The_Case_for_Collaborative_Programming) you'll notice that every single advantage of pair programming applies to paired leadership.
 
 But why are we in this predicament of worshipping autonomy more than alignment? I know what you're thinking. Isn't this micro-managing? 
 
@@ -85,11 +85,11 @@ First tip, be clear and open about the types of conversations you need with your
 * 50% your peer,
 * 25% I work for you
 
-This encourages collaboration and sets the tone of alignment and a strong habit of working together. [pic.twitter.com/eZcHF9ruEh](https://twitter.com/jmwind/status/1493569398212157443/photo/1)
+This encourages collaboration and sets the tone of alignment and a strong habit of working together.
 
 ![3_1493569393543946240](chapter4-assets/3_1493569393543946240.jpg)
 
-Second tip: Susan Scott, author of “Fierce Conversations,” offers a wonderful alignment model: the Decision Tree. [pic.twitter.com/bLfbT9TdzV](https://twitter.com/jmwind/status/1493569408236617731/photo/1)
+Second tip is from Susan Scott, author of “Fierce Conversations,” offers a wonderful alignment model: the Decision Tree. 
 
 ![3_1493569401177600000](chapter4-assets/3_1493569401177600000.jpg)
 

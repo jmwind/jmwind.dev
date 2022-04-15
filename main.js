@@ -134,7 +134,8 @@ const classMap = {
     h1: 'py-2 font-sans text-gray-900 text-base no-underline hover:no-underline font-extrabold text-xl',
     a: 'underline text-purple-600',
     ul: 'list-disc',
-    "/ul": ''
+    "/ul": '',
+    img: 'max-w-full h-auto rounded-lg shadow-lg'
 }
 
 function replaceString(key, map) {

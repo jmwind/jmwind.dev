@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="/styles.css" />
-    <link rel="stylesheet" href="/scroll.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.0/showdown.min.js"></script>
+    <link rel="stylesheet" href="/scroll.css" />    
     <script type="module" src="/main.js"></script>    
-    <script type="module">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.0/showdown.min.js" class="importer"></script>
+    <script type="module" class="loader">
         import {loadContent} from '/main.js';
         const params = new URLSearchParams(window.location.search)
         loadContent(document, `chapter${params.get("num")}.md`);
