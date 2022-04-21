@@ -1,7 +1,3 @@
-# Chapter 1: Problem upgrade chart [Read on Twitter](https://twitter.com/jmwind/status/1460284795150225409)
-
-
-
 This is the most common question I'm answering in recent fireside chats...
 
 Q. How do you handle/manage the stress of working in a hyper-growth company where there's always too much to do?"

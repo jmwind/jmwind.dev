@@ -1,7 +1,3 @@
-# Chapter 4: Alignment > Autonomy
-
-[Read on Twitter](https://twitter.com/jmwind/status/1493569303030816770)
-
 Another common question I’m answering working with scaling tech companies is…
 
 Question: What’s the worst leadership advice you’ve heard?

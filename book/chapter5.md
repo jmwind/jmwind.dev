@@ -1,7 +1,8 @@
 Another common question I’m answering working with scaling tech companies is…
-Q. We are getting slower as we scale, how can we get back to being fast?
-A. Invest equally in getting fast fast and getting fast slowly. Let me explain... 🧵
 
+Q. We are getting slower as we scale, how can we get back to being fast?
+
+A. Invest equally in getting fast fast and getting fast slowly. Let me explain... 🧵
 
 Andy Jassy was on the cover of Time magazine this month. He talks about Amazon staying fast and how autonomy is crucial.
 ​​

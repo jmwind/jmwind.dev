@@ -1,11 +1,3 @@
----
-author: "Jean-Michel Lemieux"
-handle: "@jmwind"
-source: "https://twitter.com/jmwind/status/1470894712538103813"
----
-![jmwind](chapter2-assets/jmwind-25218549.jpg)
-Jean-Michel Lemieux ([@jmwind](https://twitter.com/jmwind))
-
 Another common question I’m answering working with scaling tech companies is…
 
 Q. How much of your r&amp;d spend should be focused on platform work? 

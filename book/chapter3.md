@@ -1,11 +1,3 @@
----
-author: "Jean-Michel Lemieux"
-handle: "@jmwind"
-source: "https://twitter.com/jmwind/status/1477399261700526080"
----
-![jmwind](chapter3-assets/jmwind-25218549.jpg)
-Jean-Michel Lemieux ([@jmwind](https://twitter.com/jmwind))
-
 Another common question I’m answering working with scaling tech companies is…
 
 Q. What virus infects growing engineering orgs the most?

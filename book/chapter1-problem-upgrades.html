@@ -1,5 +1,6 @@
 <!DOCTYPE html><html lang="en"><head>
-    <link rel="stylesheet" href="/styles.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css">
     <link rel="stylesheet" href="/scroll.css">    
     <script type="module" src="/main.js"></script>    
     
@@ -31,91 +32,68 @@
         </nav>
         </rs-header>
     <div class="container w-full md:max-w-3xl mx-auto pt-20">
-        <div id="nav-content" class="w-full px-2 md:px-4 text-l text-gray-800 leading-normal" style="font-family:Pratt,Georgia,Palatino,Book Antiqua,Times New Roman,serif;">                        
-            <div id="content"><p class="py-2">Another common question I’m answering working with scaling tech companies is…
-Q. We are getting slower as we scale, how can we get back to being fast?
-A. Invest equally in getting fast fast and getting fast slowly. Let me explain… 🧵</p>
-<p class="py-2">Andy Jassy was on the cover of Time magazine this month. He talks about Amazon staying fast and how autonomy is crucial.
-​​
-Amazon has been obsessed with staying fast for decades: they invented the 2-pizza team and teams that only talk via APIs.</p>
-<p class="py-2">Autonomy is intuitively "no shit" obvious.
-We all know that you get faster by reducing the collaboration friction between teams.
-The same week that you tell two people that they don't have to work together, they immediately get faster fast.</p>
-<p class="py-2">What Andy Jassy fails to mention, is that they also invested massively in getting fast slowly by reducing the huge amount of med/low value repeated decisions in their tech teams.
-It's called AWS, it was built for themselves first. And took years to build.</p>
-<p class="py-2">As you scale, the speed impact of only investing in getting fast fast will slow you to a crawl.
-It's like eating a snickers bar mid-afternoon. The sugar rush is nice, but it doesn't last long.</p>
-<p class="py-2">When you were a small team you didn't have decision friction as you had limited decisions to make and those you did make applied to everyone.
-So it's not something you prepared for until it hits you.</p>
-<p class="py-2">Reducing decision friction is where I see most companies struggle because it means they have to make imperfect decisions that impact a lot of people.
-It's hard, painful. And they avoid it.
-But it's also where you need to get leverage and long term speed.</p>
-<p class="py-2">Once your company gets to a certain size the benefits you can obtain by investing in making all your teams slightly more productive with a 85% good tool/process start to swamp the slight gains that several different teams might get from doing things their own way with a 95% tool/process.</p>
-<p class="py-2">It's much faster long term to be an expert with a small set of good shared tools/approaches and get the speed benefit of being an expert and not having all teams having to make that repeated decision.</p>
-<p class="py-2">However, some engineers get their self-worth with the tech/process they know, and when they join your company they want to use that tech/process. They are often loud.
-It takes a strong culture to rejig that tech self-worth dependence.</p>
-<p class="py-2">And it doesn't help that there's amnesia in the tech world that the productivity speed we got with the internet was thanks to imperfect technical standards that got adopted at scale (ip, udp, dns, http, etc…).</p>
-<p class="py-2">Like the internet protocols, I recommend engineering orgs standardize big parts of how they work. Cohesion powers more autonomy, like AWS has for Amazon.
-Here are some ideas on where you should be making decisions on standards to go fast over the long term. You won't get it perfect. But that's not the point.</p>
-<p class="py-2">It’s worth repeating, cohesiveness is harder than autonomy. You’ll have people quit over some of the decisions you make with your team for the long term. 
-With the breath of engineering cohesion areas, there are a lot of opinions about each area. </p>
-<p class="py-2">Read this entire essay from @peterseibel about the tradeoff and experience with a company that ignored any cohesion and had to adjust 
-https://gigamonkeys.com/flowers/ </p>
-<p class="py-2">And best of all, autonomy and cohesion work together. Autonomy is a cohesiveness test as there will be things you decide to standardize that rust and need replacing or removing.
-Autonomy is a great tool for exploring and testing new ideas quickly.</p>
-<p class="py-2">Ok, let's make this more concrete. Outside of your technical decisions, there are many others that require investing in going fast fast and fast slowly. </p>
-<p class="py-2">Here's an exercise you can run with your teams/company. I've done this several times and it's eye opening.
-Write down the last 7-10 initiatives that have either shipped or are shipping.</p>
-<p class="py-2">For each write down what impacted the speed of the initiative/project the most and why. Then write down what you could have done quickly or slowly to fix.
-We've found it helpful to access projects from different perspectives so that you get the full picture.</p>
-<p class="py-2">–
-These categories can help you look at your projects from different points of view:</p>
-<ol>
-<li>Leadership</li>
-<li>Aiming</li>
-<li>Staffing</li>
-<li>Difficulty</li>
-<li>Quality
-–
-Leadership:
-Did you have a strong/full time leader? Did the senior team ensure timely decisions on product/scope/tech? Was the leader(s) full time on this initiative or balancing many others?
-–
-Aiming:
-Did the team take the initiative in the right direction? How long did it take to find the direction? This scope change significantly during the project?
-–
-Staffing:
-Did you have the right mix and amount of people at the right time (too little too late, or too many too early)? Was there an expertise that was missing that caused slow down or quality issues?
-–
-Difficulty:
-Was this harder to implement than expected? Did it require new primitives, complex areas of the code, cross-cutting changes across the product? Did the team have to build a lot of scaffolding, infrastructure and tools as part of this project?
-–
-Quality:
-Once the team build the right thing, was it high or low quality (UX, resiliency, speed, scale)? What impacted the quality of the output the most?
-–
-Here are some examples of fast and slow fixes:
-Leadership: Didn't have a leader with enough context and decisions were slow.
-Fast Fix: Move someone from another team to take the role.
-Slow Fix: Leadership development programs are lacking, there is no paired leadership culture, onboarding for leaders is missing
-–
-Another one:
-Difficulty: The amount of changes required across the code base was a surprise and took a lot longer than expected.
-Fast Fix: Create your own micro-service and duplicate code
-Slow Fix: Prototype at the start and help inform scope of project or gaps in architecture
-–
-Another one:
-Staffing: We had the right people but they weren't familiar with the tech stack and tools for this area. It's hard to move teams.
-Fast fix: None
-Slow Fix: Standardize on a lot of the dev environments across teams to make it easier to flex staffing on different projects
-–
-After the exercise you'll have a great insight as a team into how you see speed and the tools you can use to address today and into the future. Think of this as your "speed" roadmap.
-But some of the slowest engineering teams I've met have decided to let teams do their thing and recovery takes years.
-– 
-Cohesiveness is hard, culturally because of strongly held opinions of a few people on your team. It’s also hard because in some cases you also have to decide what to leave up to the teams and not standardized. But teams who do this hard work will benefit.
-–
-You get speed by consistently working on autonomy and cohesiveness initiatives.
-When you start to slow down because of too much autonomy is when you start getting the benefits of cohesion investments.
-Teams I work with that do both well are 2x faster than others. </li>
-</ol></div>
+        <div id="nav-content" class="w-full px-2 md:px-4 text-l text-gray-800 leading-normal" style="font-family:Pratt,Georgia,Palatino,Book Antiqua,Times New Roman,serif;">      
+                <div class="flex grid-cols-2 gap-10 auto-cols-min justify-between">
+                    <h1 class="py-2 font-sans text-gray-900 text-base no-underline hover:no-underline font-extrabold text-xl title">Chapter 1: The problem upgrade chart</h1>
+                    <div class="flex grid justify-center items-center grid-flow-col gap-4 text-sm text-gray-500">
+                        <a class="tweet_link" href="https://twitter.com/jmwind/status/1460284795150225409">Read on Twitter</a>
+                        <div class="grid grid-flow-col gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill-opacity="0.5" width="25px" height="25px" viewBox="0 0 54 72">
+                                <path d="M38.723,12c-7.187,0-11.16,7.306-11.723,8.131C26.437,19.306,22.504,12,15.277,12C8.791,12,3.533,18.163,3.533,24.647 C3.533,39.964,21.891,55.907,27,56c5.109-0.093,23.467-16.036,23.467-31.353C50.467,18.163,45.209,12,38.723,12z"></path>
+                            </svg>
+                            <div class="likes">488</div>
+                        </div>
+                        <div class="grid grid-flow-col auto-cols-min gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill-opacity="0.5" width="25px" height="25px" viewBox="0 0 75 72">
+                                <path d="M70.676 36.644C70.166 35.636 69.13 35 68 35h-7V19c0-2.21-1.79-4-4-4H34c-2.21 0-4 1.79-4 4s1.79 4 4 4h18c.552 0 .998.446 1 .998V35h-7c-1.13 0-2.165.636-2.676 1.644-.51 1.01-.412 2.22.257 3.13l11 15C55.148 55.545 56.046 56 57 56s1.855-.455 2.42-1.226l11-15c.668-.912.767-2.122.256-3.13zM40 48H22c-.54 0-.97-.427-.992-.96L21 36h7c1.13 0 2.166-.636 2.677-1.644.51-1.01.412-2.22-.257-3.13l-11-15C18.854 15.455 17.956 15 17 15s-1.854.455-2.42 1.226l-11 15c-.667.912-.767 2.122-.255 3.13C3.835 35.365 4.87 36 6 36h7l.012 16.003c.002 2.208 1.792 3.997 4 3.997h22.99c2.208 0 4-1.79 4-4s-1.792-4-4-4z"></path>
+                            </svg>
+                            <div class="retweets">118</div>
+                        </div>
+                        <div class="grid grid-flow-col auto-cols-min gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill-opacity="0.5" width="25px" height="25px" viewBox="0 0 65 72">
+                                <path d="M41 31h-9V19c0-1.14-.647-2.183-1.668-2.688-1.022-.507-2.243-.39-3.15.302l-21 16C5.438 33.18 5 34.064 5 35s.437 1.82 1.182 2.387l21 16c.533.405 1.174.613 1.82.613.453 0 .908-.103 1.33-.312C31.354 53.183 32 52.14 32 51V39h9c5.514 0 10 4.486 10 10 0 2.21 1.79 4 4 4s4-1.79 4-4c0-9.925-8.075-18-18-18z"></path>
+                            </svg>
+                            <div class="comments">16</div>
+                        </div>
+                    </div>                  
+                </div> 
+            <hr>   
+            <div id="content"><p class="py-2">This is the most common question I'm answering in recent fireside chats…</p>
+<p class="py-2">Q. How do you handle/manage the stress of working in a hyper-growth company where there's always too much to do?"</p>
+<p class="py-2">A. It's a mindset change: problems upgrade but don't go away. Let me explain… 🧵</p>
+<p class="py-2">The reason this problem mindset is hard to develop is our human bias that gets in the way… From childhood we are trained to see work equate with problems diminishing over time. You finish your assignment, and it's done. You complete your courses, you finish a sports game.</p>
+<p class="py-2">The Agile development process is the worst for this as the coveted "burn down" chart is what you use to see if you're doing a good job as a team. You equate progress with "less story points". You measure your self-worth with problems going away.</p>
+<p class="py-2">But in high growth companies, problems never go away. If every year you have 100 problems in your company. With the product, people, processes… what ever… every single year you will still have 100 problems. EVERY YEAR… 100 problems. Most aren't going away. And those that are fixed are replaced immediately. </p>
+<p class="py-2">[If problems never go away, you have to measure progress differently. It will require building an entire new mental model for progress. Throw out burn down charts completely. This sounds simple, but it's the number one reason why most people can't handle hyper growth.</p>
+<p class="py-2">Say hello to the "problem upgrade chart". Burn this into your mind. It will save you.</p>
+<p class="py-2">Yearly progress is when 5-15% of your problems are new.  And not that they all go away. Remember, you will always have 100 problems.</p>
+<p class="py-2"><img class="w-1/2 h-1/2 rounded-lg shadow-lg mx-auto" src="chapter1-assets/3_1460280332536750092.jpg" alt="3_1460280332536750092"></p>
+<p class="py-2">Why will this save you? Because your entire self-worth is based on a bad mental model. If you can start seeing problem upgrades vs problem disappearing you will learn to see progress.</p>
+<p class="py-2">And progress is the fuel for our work.</p>
+<p class="py-2">The hard part is that you can't log into JIRA and see a problem upgrade chart. So you have to build some ways to see your company with this lens without a tool. </p>
+<p class="py-2">Write down a problem list at the start of the year, things that really piss you off.</p>
+<p class="py-2"><a class="underline text-purple-600" href="https://twitter.com/jmwind/status/1460284806902726658">Tweet link</a></p>
+<hr>
+<p class="py-2"><img class="w-1/2 h-1/2 rounded-lg shadow-lg mx-auto" src="chapter1-assets/jmwind-25218549.jpg" alt="jmwind">
+Jean-Michel Lemieux (<a class="underline text-purple-600" href="https://twitter.com/jmwind">@jmwind</a>)</p>
+<p class="py-2">9/ Every year review that list and if you can cross out 10-15% of the items, you're killing it! Pop open the champagne, have a progress dance, and be super happy!</p>
+<p class="py-2"><a class="underline text-purple-600" href="https://twitter.com/jmwind/status/1460284808010084352">Tweet link</a></p>
+<hr>
+<p class="py-2"><img class="w-1/2 h-1/2 rounded-lg shadow-lg mx-auto" src="chapter1-assets/jmwind-25218549.jpg" alt="jmwind">
+Jean-Michel Lemieux (<a class="underline text-purple-600" href="https://twitter.com/jmwind">@jmwind</a>)</p>
+<p class="py-2">10/ Then start sharing this mindset with your colleagues. </p>
+<p class="py-2">There are a lot of people around you who are devout pessimists that will drag you down. It's really hard to stay positive in a sea of burndown zealots. </p>
+<p class="py-2">But keep pushing. You've got this!</p>
+<p class="py-2"><a class="underline text-purple-600" href="https://twitter.com/jmwind/status/1460284809201213441">Tweet link</a></p>
+<hr>
+<p class="py-2"><img class="w-1/2 h-1/2 rounded-lg shadow-lg mx-auto" src="chapter1-assets/jmwind-25218549.jpg" alt="jmwind">
+Jean-Michel Lemieux (<a class="underline text-purple-600" href="https://twitter.com/jmwind">@jmwind</a>)</p>
+<p class="py-2">11/ It's an absolute honour being in a growing company. </p>
+<p class="py-2">The problem upgrade chart &amp; mindset will make it fun in addition to being an honour. </p>
+<p class="py-2">This has been my secret to not burning out over 26 years in high growth teams/companies. </p>
+<p class="py-2">Happy company building to all! <a class="underline text-purple-600" href="https://twitter.com/jmwind/status/1460284813101969419/photo/1">pic.twitter.com/VeUPT3v2LO</a></p>
+<p class="py-2"><img class="w-1/2 h-1/2 rounded-lg shadow-lg mx-auto" src="chapter1-assets/3_1460284423463751685.jpg" alt="3_1460284423463751685"></p>
+<p class="py-2"><a class="underline text-purple-600" href="https://twitter.com/jmwind/status/1460284813101969419">Tweet link</a></p></div>
         </div>
     </div>
     <rs-footer>

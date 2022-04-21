@@ -1,0 +1,198 @@
+<!DOCTYPE html><html lang="en"><head>
+    
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="/scroll.css">    
+    <script type="module" src="/main.js"></script>    
+    
+    
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <rs-header>
+        <nav id="header" class="fixed w-full top-0">
+            <div id="progress" class="h-1 z-20 top-0" style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
+            <div class="w-full md:max-w-4xl mx-auto flex flex-wrap items-center justify-between mt-0 py-3">
+                <div class="pl-4 flex flex-wrap items-center justify-between">
+                    <a href="/"><img class="w-8 sm:w-10" width="40" height="40" src="/images/logo.webp"></a>
+                    <a class="p-3 text-gray-900 no-underline hover:no-underline font-extrabold sm:text-3xl" href="/">
+                        Building from the right side
+                    </a>
+                </div>
+                <div class="pl-4 px-2 p-1">
+                    <a class="text-sm p-1 text-gray-500 text-base no-underline hover:no-underline" href="/#book">
+                        Book
+                    </a>
+                    <a class="text-sm p-1 text-gray-500 text-base no-underline hover:no-underline" href="/#about">
+                        About
+                    </a>
+                    <a class="text-sm p-1 text-gray-500 text-base no-underline hover:no-underline" href="#contact">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </nav>
+        </rs-header>
+    <div class="container w-full md:max-w-3xl mx-auto pt-20">
+        <div id="nav-content" class="w-full px-2 md:px-4 text-l text-gray-800 leading-normal" style="font-family:Pratt,Georgia,Palatino,Book Antiqua,Times New Roman,serif;">      
+                <div class="flex grid-cols-2 gap-10 auto-cols-min justify-between">
+                    <h1 class="py-2 font-sans text-gray-900 text-base no-underline hover:no-underline font-extrabold text-xl title">Chapter 5: Going fast slowly</h1>
+                    <div class="flex grid justify-center items-center grid-flow-col gap-4 text-sm text-gray-500">
+                        <a class="tweet_link" href="https://twitter.com/jmwind/status/1493569303030816770">Read on Twitter</a>
+                        <div class="grid grid-flow-col gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill-opacity="0.5" width="25px" height="25px" viewBox="0 0 54 72">
+                                <path d="M38.723,12c-7.187,0-11.16,7.306-11.723,8.131C26.437,19.306,22.504,12,15.277,12C8.791,12,3.533,18.163,3.533,24.647 C3.533,39.964,21.891,55.907,27,56c5.109-0.093,23.467-16.036,23.467-31.353C50.467,18.163,45.209,12,38.723,12z"></path>
+                            </svg>
+                            <div class="likes">4,412</div>
+                        </div>
+                        <div class="grid grid-flow-col auto-cols-min gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill-opacity="0.5" width="25px" height="25px" viewBox="0 0 75 72">
+                                <path d="M70.676 36.644C70.166 35.636 69.13 35 68 35h-7V19c0-2.21-1.79-4-4-4H34c-2.21 0-4 1.79-4 4s1.79 4 4 4h18c.552 0 .998.446 1 .998V35h-7c-1.13 0-2.165.636-2.676 1.644-.51 1.01-.412 2.22.257 3.13l11 15C55.148 55.545 56.046 56 57 56s1.855-.455 2.42-1.226l11-15c.668-.912.767-2.122.256-3.13zM40 48H22c-.54 0-.97-.427-.992-.96L21 36h7c1.13 0 2.166-.636 2.677-1.644.51-1.01.412-2.22-.257-3.13l-11-15C18.854 15.455 17.956 15 17 15s-1.854.455-2.42 1.226l-11 15c-.667.912-.767 2.122-.255 3.13C3.835 35.365 4.87 36 6 36h7l.012 16.003c.002 2.208 1.792 3.997 4 3.997h22.99c2.208 0 4-1.79 4-4s-1.792-4-4-4z"></path>
+                            </svg>
+                            <div class="retweets">1,144</div>
+                        </div>
+                        <div class="grid grid-flow-col auto-cols-min gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill-opacity="0.5" width="25px" height="25px" viewBox="0 0 65 72">
+                                <path d="M41 31h-9V19c0-1.14-.647-2.183-1.668-2.688-1.022-.507-2.243-.39-3.15.302l-21 16C5.438 33.18 5 34.064 5 35s.437 1.82 1.182 2.387l21 16c.533.405 1.174.613 1.82.613.453 0 .908-.103 1.33-.312C31.354 53.183 32 52.14 32 51V39h9c5.514 0 10 4.486 10 10 0 2.21 1.79 4 4 4s4-1.79 4-4c0-9.925-8.075-18-18-18z"></path>
+                            </svg>
+                            <div class="comments">79</div>
+                        </div>
+                    </div>                  
+                </div> 
+            <hr>   
+            <div id="content"><p class="py-2">Another common question I’m answering working with scaling tech companies is…</p>
+<p class="py-2">Q. We are getting slower as we scale, how can we get back to being fast?</p>
+<p class="py-2">A. Invest equally in getting fast fast and getting fast slowly. Let me explain… 🧵</p>
+<p class="py-2">Andy Jassy was on the cover of Time magazine this month. He talks about Amazon staying fast and how autonomy is crucial.
+​​
+Amazon has been obsessed with staying fast for decades: they invented the 2-pizza team and teams that only talk via APIs.</p>
+<p class="py-2">Autonomy is intuitively "no shit" obvious.
+We all know that you get faster by reducing the collaboration friction between teams.
+The same week that you tell two people that they don't have to work together, they immediately get faster fast.</p>
+<p class="py-2">What Andy Jassy fails to mention, is that they also invested massively in getting fast slowly by reducing the huge amount of med/low value repeated decisions in their tech teams.
+It's called AWS, it was built for themselves first. And took years to build.</p>
+<p class="py-2">As you scale, the speed impact of only investing in getting fast fast will slow you to a crawl.
+It's like eating a snickers bar mid-afternoon. The sugar rush is nice, but it doesn't last long.</p>
+<p class="py-2">When you were a small team you didn't have decision friction as you had limited decisions to make and those you did make applied to everyone.
+So it's not something you prepared for until it hits you.</p>
+<p class="py-2">Reducing decision friction is where I see most companies struggle because it means they have to make imperfect decisions that impact a lot of people.
+It's hard, painful. And they avoid it.
+But it's also where you need to get leverage and long term speed.</p>
+<p class="py-2">Once your company gets to a certain size the benefits you can obtain by investing in making all your teams slightly more productive with a 85% good tool/process start to swamp the slight gains that several different teams might get from doing things their own way with a 95% tool/process.</p>
+<p class="py-2">It's much faster long term to be an expert with a small set of good shared tools/approaches and get the speed benefit of being an expert and not having all teams having to make that repeated decision.</p>
+<p class="py-2">However, some engineers get their self-worth with the tech/process they know, and when they join your company they want to use that tech/process. They are often loud.
+It takes a strong culture to rejig that tech self-worth dependence.</p>
+<p class="py-2">And it doesn't help that there's amnesia in the tech world that the productivity speed we got with the internet was thanks to imperfect technical standards that got adopted at scale (ip, udp, dns, http, etc…).</p>
+<p class="py-2">Like the internet protocols, I recommend engineering orgs standardize big parts of how they work. Cohesion powers more autonomy, like AWS has for Amazon.
+Here are some ideas on where you should be making decisions on standards to go fast over the long term. You won't get it perfect. But that's not the point.</p>
+<p class="py-2">It’s worth repeating, cohesiveness is harder than autonomy. You’ll have people quit over some of the decisions you make with your team for the long term. 
+With the breath of engineering cohesion areas, there are a lot of opinions about each area. </p>
+<p class="py-2">Read this entire essay from @peterseibel about the tradeoff and experience with a company that ignored any cohesion and had to adjust 
+https://gigamonkeys.com/flowers/ </p>
+<p class="py-2">And best of all, autonomy and cohesion work together. Autonomy is a cohesiveness test as there will be things you decide to standardize that rust and need replacing or removing.
+Autonomy is a great tool for exploring and testing new ideas quickly.</p>
+<p class="py-2">Ok, let's make this more concrete. Outside of your technical decisions, there are many others that require investing in going fast fast and fast slowly. </p>
+<p class="py-2">Here's an exercise you can run with your teams/company. I've done this several times and it's eye opening.
+Write down the last 7-10 initiatives that have either shipped or are shipping.</p>
+<p class="py-2">For each write down what impacted the speed of the initiative/project the most and why. Then write down what you could have done quickly or slowly to fix.
+We've found it helpful to access projects from different perspectives so that you get the full picture.</p>
+<p class="py-2">–
+These categories can help you look at your projects from different points of view:</p>
+<ol>
+<li>Leadership</li>
+<li>Aiming</li>
+<li>Staffing</li>
+<li>Difficulty</li>
+<li>Quality
+–
+Leadership:
+Did you have a strong/full time leader? Did the senior team ensure timely decisions on product/scope/tech? Was the leader(s) full time on this initiative or balancing many others?
+–
+Aiming:
+Did the team take the initiative in the right direction? How long did it take to find the direction? This scope change significantly during the project?
+–
+Staffing:
+Did you have the right mix and amount of people at the right time (too little too late, or too many too early)? Was there an expertise that was missing that caused slow down or quality issues?
+–
+Difficulty:
+Was this harder to implement than expected? Did it require new primitives, complex areas of the code, cross-cutting changes across the product? Did the team have to build a lot of scaffolding, infrastructure and tools as part of this project?
+–
+Quality:
+Once the team build the right thing, was it high or low quality (UX, resiliency, speed, scale)? What impacted the quality of the output the most?
+–
+Here are some examples of fast and slow fixes:
+Leadership: Didn't have a leader with enough context and decisions were slow.
+Fast Fix: Move someone from another team to take the role.
+Slow Fix: Leadership development programs are lacking, there is no paired leadership culture, onboarding for leaders is missing
+–
+Another one:
+Difficulty: The amount of changes required across the code base was a surprise and took a lot longer than expected.
+Fast Fix: Create your own micro-service and duplicate code
+Slow Fix: Prototype at the start and help inform scope of project or gaps in architecture
+–
+Another one:
+Staffing: We had the right people but they weren't familiar with the tech stack and tools for this area. It's hard to move teams.
+Fast fix: None
+Slow Fix: Standardize on a lot of the dev environments across teams to make it easier to flex staffing on different projects
+–
+After the exercise you'll have a great insight as a team into how you see speed and the tools you can use to address today and into the future. Think of this as your "speed" roadmap.
+But some of the slowest engineering teams I've met have decided to let teams do their thing and recovery takes years.
+– 
+Cohesiveness is hard, culturally because of strongly held opinions of a few people on your team. It’s also hard because in some cases you also have to decide what to leave up to the teams and not standardized. But teams who do this hard work will benefit.
+–
+You get speed by consistently working on autonomy and cohesiveness initiatives.
+When you start to slow down because of too much autonomy is when you start getting the benefits of cohesion investments.
+Teams I work with that do both well are 2x faster than others. </li>
+</ol></div>
+        </div>
+    </div>
+    <rs-footer>
+                <footer id="contact" class="w-full bg-white border-t border-gray-400 shadow">
+                <div class="container max-w-1xl mx-auto flex py-8">
+                    <div class="w-full mx-auto flex flex-wrap">
+                        <div class="flex w-full">
+                            <div class="px-3">
+                                <a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-2" href="https://twitter.com/jmwind">
+                                    <svg class="w-6 h-6 text-black-600 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"></path>
+                                    </svg>
+                                </a>
+                                <a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-2" href="https://www.linkedin.com/in/jmlemieux-613/"><svg class="w-6 h-6 text-black-600 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                                        </path>
+                                    </svg></a>
+                                <a class="inline-block text-gray-600 no-underline hover:text-black-900 hover:text-underline py-2 px-2" href="mailto:jml@buildrightside.com">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                    </svg></a>
+                                <a class="inline-block text-gray-600 no-underline hover:text-black-900 hover:text-underline py-2 px-2" href="https://github.com/jmwind/jmwind.dev">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+                                    </svg>
+                                </a>
+                                <a class="inline-block text-gray-600 no-underline hover:text-black-900 hover:text-underline py-2 px-2" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fbuildrightside.com%2F">
+                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 329.922 329.922">
+                                        <path d="M281.672,70.216C217.34,5.883,112.662,5.884,48.328,70.217C17.162,101.381,0,142.817,0,186.89
+                                                c0,44.072,17.162,85.508,48.328,116.672c5.857,5.857,15.356,5.857,21.213,0c5.857-5.859,5.857-15.356,0-21.214
+                                                c-21.928-21.927-35.375-50.072-38.713-80.458H45c8.283,0,15-6.715,15-15c0-8.284-6.717-14.999-15-14.999H30.828
+                                                c2.793-25.433,12.674-49.291,28.68-69.252l9.984,9.983c2.928,2.929,6.768,4.394,10.605,4.394c3.84,0,7.678-1.464,10.607-4.394
+                                                c5.857-5.857,5.857-15.355,0-21.213l-9.98-9.98c20.422-16.344,44.523-25.889,69.248-28.635V66.86c0,8.284,6.715,15,15,15
+                                                c8.283,0,15-6.716,15-15V52.787c24.73,2.736,48.842,12.275,69.273,28.616L239.24,91.409c-5.859,5.858-5.859,15.355,0,21.214
+                                                c2.928,2.929,6.768,4.393,10.605,4.393c3.84,0,7.678-1.464,10.607-4.393l10.008-10.009c16.35,20.43,25.896,44.542,28.637,69.276
+                                                h-14.096c-8.285,0-15,6.716-15,14.999c0,8.285,6.715,15,15,15h14.096c-3.26,29.414-16.135,57.953-38.639,80.458
+                                                c-5.857,5.858-5.857,15.355,0,21.214c2.93,2.928,6.768,4.393,10.607,4.393c3.838,0,7.678-1.465,10.605-4.393
+                                                C346.006,239.229,346.006,134.55,281.672,70.216z"></path>
+                                        <path d="M211.066,277.954h-92.133c-8.283,0-15,6.717-15,15c0,8.286,6.717,15.001,15,15.001h92.133c8.283,0,15-6.715,15-15.001
+                                                C226.066,284.671,219.35,277.954,211.066,277.954z"></path>
+                                        <path d="M165,216.89c10.613,0,19.273-8.274,19.935-18.722l33.098-33.099c5.859-5.858,5.859-15.355,0-21.214
+                                                c-5.857-5.857-15.355-5.857-21.213,0l-33.098,33.098c-10.447,0.662-18.723,9.32-18.723,19.934
+                                                c-0.002,11.045,8.951,20,19.998,20.002l0,0C164.998,216.89,164.998,216.89,165,216.89z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <p class="inline-block text-gray-400 py-2 px-2">© Copyright 2021, Jean-Michel Lemieux</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </rs-footer>    
+
+</body></html>
