@@ -135,7 +135,7 @@ const classMap = {
     a: 'underline text-purple-600',
     ul: 'list-disc',
     "/ul": '',
-    img: 'w-1/2 h-1/2 rounded-lg shadow-lg mx-auto'
+    img: 'w-3/5 h-3/5 rounded-lg shadow-lg mx-auto'
 }
 
 function replaceString(key, map) {
