@@ -13,7 +13,7 @@ const tweets = [
     {id: "1470894712538103813", title: "Chapter 2: Platform investments", slug: "platform-investments"},
     {id: "1477399261700526080", title: "Chapter 3: Layerinitis", slug: "layerinitis"}, 
     {id: "1493569303030816770", title: "Chapter 4: Alignment > Autonomy", slug: "alignment"},
-    {id: "1493569303030816770", title: "Chapter 5: Going fast slowly", slug: "fast-slowly"}
+    {id: "1520068607803158528", title: "Chapter 5: Going fast slowly", slug: "fast-slowly"}
 ];
 
 (async () => {
