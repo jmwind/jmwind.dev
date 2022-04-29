@@ -1,114 +1,139 @@
 Another common question I’m answering working with scaling tech companies is…
 
-Q. We are getting slower as we scale, how can we get back to being fast?
+Question. We are getting slower as we scale, how can we get back to being fast?
 
-A. Invest equally in getting fast fast and getting fast slowly. Let me explain... 🧵
+Answer. Invest in both getting fast fast and getting fast slowly. Let me explain... 
+
+![1](chapter5-assets/autonomy-cohesiveness-chart.png)
 
 Andy Jassy was on the cover of Time magazine this month. He talks about Amazon staying fast and how autonomy is crucial.
+
+![2](chapter5-assets/time-jassy.png)
 ​​
+
 Amazon has been obsessed with staying fast for decades: they invented the 2-pizza team and teams that only talk via APIs.
 
-Autonomy is intuitively "no shit" obvious.
-We all know that you get faster by reducing the collaboration friction between teams.
+Autonomy is an intuitively "no shit" obvious way of getting fast.
+Reduce the collaboration friction between teams...and bingo!
 The same week that you tell two people that they don't have to work together, they immediately get faster fast.
 
+![3](chapter5-assets/collab-friction.png)
 
-What Andy Jassy fails to mention, is that they also invested massively in getting fast slowly by reducing the huge amount of med/low value repeated decisions in their tech teams.
-It's called AWS, it was built for themselves first. And took years to build.
-
-
-As you scale, the speed impact of only investing in getting fast fast will slow you to a crawl.
+Autonomy is great. But as you scale, the speed impact of only investing in getting fast fast will in fact slow you to a crawl.
 It's like eating a snickers bar mid-afternoon. The sugar rush is nice, but it doesn't last long.
 
+What Jassy fails to mention: they also invested massively in getting fast slowly by reducing the amount of med/low value repeated decisions in their teams.
+One is called AWS, it was built for themselves first. And took years to build. The other are leadership principles. Teams don’t have their own, they share them.
 
-When you were a small team you didn't have decision friction as you had limited decisions to make and those you did make applied to everyone.
+Building shared standards and platforms to reduce decision friction is how you go fast slowly. 
+The faster you get longer term, the more likely that removing small decisions compounded to make it happen over time.
+
+![4](chapter5-assets/decision-friction.png)
+
+When you were a small team you didn't have decision friction. You had limited decisions to make and those you did make applied to everyone uniformly.
 So it's not something you prepared for until it hits you.
 
 
-Reducing decision friction is where I see most companies struggle because it means they have to make imperfect decisions that impact a lot of people.
+Reducing “decision duplication” is where I see most companies struggle because it means they have to make imperfect decisions that impact a lot of people.
 It's hard, painful. And they avoid it.
-But it's also where you need to get leverage and long term speed.
 
-Once your company gets to a certain size the benefits you can obtain by investing in making all your teams slightly more productive with a 85% good tool/process start to swamp the slight gains that several different teams might get from doing things their own way with a 95% tool/process.
+You avoid it because your company is full of smart and opinionated experts who all have their pet processes, tools, and approaches. 
+Using the autonomy card is easy as it avoids conflict. 
+Building shared processes/tools/tech is running towards conflict and many imperfect and hard decisions. 
 
-It's much faster long term to be an expert with a small set of good shared tools/approaches and get the speed benefit of being an expert and not having all teams having to make that repeated decision.
+Once your company gets to a certain size the benefits you can obtain by investing in making all your teams slightly more productive with a 85% good tool/process start to swamp the slight gains that several different teams might get from going fully autonomous and doing things their own way with a 95% tool/process.
 
-However, some engineers get their self-worth with the tech/process they know, and when they join your company they want to use that tech/process. They are often loud.
+It's much faster long term to be an expert with a small set of good shared tools/approaches and get the speed benefit of being an expert and not having all teams having to make that repeated decision. 
+There are so many small/med decisions being made over and over that aren’t key to your business or need re-invention.
+
+Let's make this more concrete and run an exercise called the “Company Speed Roadmap”. It helps you take a step back and look at what you can invest in to go fast fast and fast slowly. 
+
+Start by writing down the last 7-10 initiatives that have either shipped or are shipping in your team or company.
+Accessing speed has to be done at the project/initiative level as it’s where value is created. It’s a forcing function for looking at the entire system of how teams create outcomes.
+
+![5](chapter5-assets/speed-roadmap.png)
+
+For each initiative write down what impacted its speed and why. Then write down what you could have done quickly or slowly to fix.
+We've found it helpful to access projects from different perspectives so that you get the full picture.
+
+These categories can help you look at your projects from different points of view as each has an impact on speed and each has fixes that are short term and long term:
+
+* Leadership
+* Aiming
+* Staffing
+* Difficulty
+* Quality
+
+*Leadership*
+
+Did you have a strong/full time leader? Did the senior team ensure timely decisions on product/scope/tech? Did the leaders know how to unblock decisions? Was the leader(s) full time on this initiative or balancing many others?
+
+*Aiming*
+
+Did the team take the initiative in the right direction? How long did it take to find the direction? Was scope well defined or took too long to settle on? Did they aim ambitiously enough?
+
+*Staffing*
+
+Did you have the right mix and amount of people at the right time (too little too late, or too many too early)? Was there an expertise that was missing that caused slow down or quality issues? Did the team work well together? Where did the team spend the most time?
+
+*Difficulty*
+
+Was this harder to implement than expected? Where did the code go? Did it require new primitives, complex areas of the code, cross-cutting changes across the product? Did the team have to build a lot of scaffolding, infrastructure and tools as part of this project?
+
+*Quality*
+
+Once the team built the right thing, was it high or low quality (UX, resiliency, speed, scale)? What impacted the quality of the output the most?
+
+When I run this exercise with teams, I suggest they make as many fast fixes as they do slow fixes. The goal is two-fold: make the hard decisions that impact speed today, and ensure you invest in the long term slow fixes as well.
+It also has a hidden benefit of aligning a team on their “speed” expectations.
+
+Here are some examples of fast and slow fixes:
+
+Leadership: Didn't have a leader with enough context and decisions were slow.
+
+Fast Fix: Move someone from another team to take the role. Requires tradeoff and prioritization that is hard.
+
+Slow Fix: Leadership development programs are lacking, there is no paired leadership culture, onboarding for leaders is missing.
+
+Difficulty: The amount of changes required across the code base was a surprise and took a lot longer than expected.
+
+Fast Fix: Create your own service/system and duplicate code
+
+Slow Fix: Prototype at the start of the project and help inform scope of project or gaps in architecture that may need more people or different sequencing of work.
+
+Staffing: We had the right people but they weren't familiar with the tech stack and tools for this area.
+
+Fast fix: None
+
+Slow Fix: Standardize the dev envs & tools across teams to make it easier to move people between areas. Invest in hack-a-thons for developers to work in other areas of the code base more regularly.
+
+After the exercise you'll have a great insight as a team into how you see speed and the tools you can use to address today and into the future. Think of this as your "speed" roadmap.
+But some of the slowest engineering teams I've met have decided to let teams do their thing and recovery takes years.
+
+Cohesiveness is hard, culturally because of strongly held opinions of a few people on your team. It’s also hard because in some cases you also have to decide what to leave up to the teams and not standardized. But teams who do this hard work will benefit.
+
+Some engineers get their self-worth with the tech/process they know, and when they join your company they want to use that tech/process. They are often loud.
 It takes a strong culture to rejig that tech self-worth dependence.
-
 
 And it doesn't help that there's amnesia in the tech world that the productivity speed we got with the internet was thanks to imperfect technical standards that got adopted at scale (ip, udp, dns, http, etc...).
 
-Like the internet protocols, I recommend engineering orgs standardize big parts of how they work. Cohesion powers more autonomy, like AWS has for Amazon.
+Like the internet protocols, I recommend engineering orgs standardize big parts of how they work. Cohesion powers more autonomy of the work that matters.
 Here are some ideas on where you should be making decisions on standards to go fast over the long term. You won't get it perfect. But that's not the point.
 
+![5](chapter5-assets/eng-cohesiveness-areas.png)
 
-It’s worth repeating, cohesiveness is harder than autonomy. You’ll have people quit over some of the decisions you make with your team for the long term. 
-With the breath of engineering cohesion areas, there are a lot of opinions about each area. 
+You’ll have engineers quit over some of the decisions you make with your team for the long term. 
+With the breadth of engineering cohesion areas, there are a lot of opinions about each area. 
 
+For another great perspective on the value of cohesion in engineering teams read [Let a 1,000 flowers bloom. Then rip 999 of them out by the roots](https://gigamonkeys.com/flowers/) from @peterseibel about the tradeoff and experience with a company that ignored cohesion and had to adjust abruptly after too many years. It's one 
+of my favourite essays of all time.
 
-Read this entire essay from @peterseibel about the tradeoff and experience with a company that ignored any cohesion and had to adjust 
-https://gigamonkeys.com/flowers/ 
-
-
-And best of all, autonomy and cohesion work together. Autonomy is a cohesiveness test as there will be things you decide to standardize that rust and need replacing or removing.
+Autonomy and cohesion work together. Autonomy is a cohesiveness test as there will be things you decide to standardize that rust and need replacing or removing. Do this regularly and don’t get too attached.
+We’ve all been stuck with that stupid “old process that doens’t work” or tool 
 Autonomy is a great tool for exploring and testing new ideas quickly.
 
-
-Ok, let's make this more concrete. Outside of your technical decisions, there are many others that require investing in going fast fast and fast slowly. 
-
-
-Here's an exercise you can run with your teams/company. I've done this several times and it's eye opening.
-Write down the last 7-10 initiatives that have either shipped or are shipping.
-
-
-For each write down what impacted the speed of the initiative/project the most and why. Then write down what you could have done quickly or slowly to fix.
-We've found it helpful to access projects from different perspectives so that you get the full picture.
-
-–
-These categories can help you look at your projects from different points of view:
-1. Leadership
-2. Aiming
-3. Staffing
-4. Difficulty
-5. Quality
-–
-Leadership:
-Did you have a strong/full time leader? Did the senior team ensure timely decisions on product/scope/tech? Was the leader(s) full time on this initiative or balancing many others?
-–
-Aiming:
-Did the team take the initiative in the right direction? How long did it take to find the direction? This scope change significantly during the project?
-–
-Staffing:
-Did you have the right mix and amount of people at the right time (too little too late, or too many too early)? Was there an expertise that was missing that caused slow down or quality issues?
-–
-Difficulty:
-Was this harder to implement than expected? Did it require new primitives, complex areas of the code, cross-cutting changes across the product? Did the team have to build a lot of scaffolding, infrastructure and tools as part of this project?
-–
-Quality:
-Once the team build the right thing, was it high or low quality (UX, resiliency, speed, scale)? What impacted the quality of the output the most?
-–
-Here are some examples of fast and slow fixes:
-Leadership: Didn't have a leader with enough context and decisions were slow.
-Fast Fix: Move someone from another team to take the role.
-Slow Fix: Leadership development programs are lacking, there is no paired leadership culture, onboarding for leaders is missing
-–
-Another one:
-Difficulty: The amount of changes required across the code base was a surprise and took a lot longer than expected.
-Fast Fix: Create your own micro-service and duplicate code
-Slow Fix: Prototype at the start and help inform scope of project or gaps in architecture
-–
-Another one:
-Staffing: We had the right people but they weren't familiar with the tech stack and tools for this area. It's hard to move teams.
-Fast fix: None
-Slow Fix: Standardize on a lot of the dev environments across teams to make it easier to flex staffing on different projects
-–
-After the exercise you'll have a great insight as a team into how you see speed and the tools you can use to address today and into the future. Think of this as your "speed" roadmap.
-But some of the slowest engineering teams I've met have decided to let teams do their thing and recovery takes years.
-– 
-Cohesiveness is hard, culturally because of strongly held opinions of a few people on your team. It’s also hard because in some cases you also have to decide what to leave up to the teams and not standardized. But teams who do this hard work will benefit.
-–
 You get speed by consistently working on autonomy and cohesiveness initiatives.
 When you start to slow down because of too much autonomy is when you start getting the benefits of cohesion investments.
-Teams I work with that do both well are 2x faster than others. 
+
+Teams I work with that do both well are 1.5-2x faster than others that don’t.  
 
