@@ -11,7 +11,7 @@ class RightSideHeader extends HTMLElement {
                         Building from the right side
                     </a>
                 </div>
-                <div class="pl-4 px-2 p-1 text-xs md:text-sm text-gray-500 text-base no-underline hover:no-underline">
+                <div class="pl-4 px-2 p-1 text-xs md:text-sm text-gray-500 text-xs no-underline hover:no-underline">
                     <a href="/#book">
                         Book
                     </a>
