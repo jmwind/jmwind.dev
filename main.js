@@ -6,19 +6,19 @@ class RightSideHeader extends HTMLElement {
                 style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
             <div class="w-full md:max-w-4xl mx-auto flex flex-wrap items-center justify-between mt-0 py-3">
                 <div class="pl-4 flex flex-wrap items-center justify-between">
-                    <a href="/"><img class="w-8 sm:w-10" width="40" height="40" src="/images/logo.webp"></a>
-                    <a class="p-3 text-gray-900 no-underline hover:no-underline font-extrabold sm:text-3xl" href="/">
+                    <a href="/"><img class="w-4 sm:w-10" width="40" height="40" src="/images/logo.webp"></a>
+                    <a class="p-3 text-gray-900 no-underline hover:no-underline sm:font-extrabold text-xs md:text-3xl" href="/">
                         Building from the right side
                     </a>
                 </div>
-                <div class="pl-4 px-2 p-1">
-                    <a class="text-sm p-1 text-gray-500 text-base no-underline hover:no-underline" href="/#book">
+                <div class="pl-4 px-2 p-1 text-xs md:text-sm text-gray-500 text-base no-underline hover:no-underline">
+                    <a href="/#book">
                         Book
                     </a>
-                    <a class="text-sm p-1 text-gray-500 text-base no-underline hover:no-underline" href="/#about">
+                    <a href="/#about">
                         About
                     </a>
-                    <a class="text-sm p-1 text-gray-500 text-base no-underline hover:no-underline" href="#contact">
+                    <a chref="#contact">
                         Contact
                     </a>
                 </div>
@@ -135,7 +135,7 @@ const classMap = {
     a: 'underline text-purple-600',
     ul: 'list-disc',
     "/ul": '',
-    img: 'w-3/5 h-3/5 rounded-lg shadow-lg mx-auto'
+    img: 'sm:w-3/5 sm:h-3/5 rounded-lg shadow-lg mx-auto'
 }
 
 function replaceString(key, map) {

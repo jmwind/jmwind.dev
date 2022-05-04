@@ -12,19 +12,19 @@
             <div id="progress" class="h-1 z-20 top-0" style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
             <div class="w-full md:max-w-4xl mx-auto flex flex-wrap items-center justify-between mt-0 py-3">
                 <div class="pl-4 flex flex-wrap items-center justify-between">
-                    <a href="/"><img class="w-8 sm:w-10" width="40" height="40" src="/images/logo.webp"></a>
-                    <a class="p-3 text-gray-900 no-underline hover:no-underline font-extrabold sm:text-3xl" href="/">
+                    <a href="/"><img class="w-4 sm:w-10" width="40" height="40" src="/images/logo.webp"></a>
+                    <a class="p-3 text-gray-900 no-underline hover:no-underline sm:font-extrabold text-xs md:text-3xl" href="/">
                         Building from the right side
                     </a>
                 </div>
-                <div class="pl-4 px-2 p-1">
-                    <a class="text-sm p-1 text-gray-500 text-base no-underline hover:no-underline" href="/#book">
+                <div class="pl-4 px-2 p-1 text-xs md:text-sm text-gray-500 text-base no-underline hover:no-underline">
+                    <a href="/#book">
                         Book
                     </a>
-                    <a class="text-sm p-1 text-gray-500 text-base no-underline hover:no-underline" href="/#about">
+                    <a href="/#about">
                         About
                     </a>
-                    <a class="text-sm p-1 text-gray-500 text-base no-underline hover:no-underline" href="#contact">
+                    <a chref="#contact">
                         Contact
                     </a>
                 </div>
@@ -34,9 +34,10 @@
     <div class="container w-full md:max-w-3xl mx-auto pt-20">
         <div id="nav-content" class="md:text-l sm:text-4xl text-gray-800 leading-normal" style="font-family:Pratt,Georgia,Palatino,Book Antiqua,Times New Roman,serif;">      
                 <div class="flex grid-cols-2 gap-10 auto-cols-min justify-between">
-                    <h1 class="py-2 font-sans text-gray-900 text-base no-underline hover:no-underline font-extrabold text-xl title">Chapter 3: Layerinitis</h1>
-                    <div class="flex grid justify-center items-center grid-flow-col gap-4 text-sm text-gray-500">
-                        <a class="tweet_link" href="https://twitter.com/jmwind/status/1477399261700526080">Read on Twitter</a>
+                    <a class="tweet_link" href="https://twitter.com/jmwind/status/1477399261700526080">
+                        <h1 class="p-2 font-sans text-gray-900 no-underline hover:no-underline font-extrabold text-sm sm:text-xl title">Chapter 3: Layerinitis</h1>                                         
+                    </a>
+                    <div class="hidden sm:flex grid justify-center items-center grid-flow-col gap-4 text-sm text-gray-500">                                              
                         <div class="grid grid-flow-col gap-1">
                             <svg xmlns="http://www.w3.org/2000/svg" fill-opacity="0.5" width="25px" height="25px" viewBox="0 0 54 72">
                                 <path d="M38.723,12c-7.187,0-11.16,7.306-11.723,8.131C26.437,19.306,22.504,12,15.277,12C8.791,12,3.533,18.163,3.533,24.647 C3.533,39.964,21.891,55.907,27,56c5.109-0.093,23.467-16.036,23.467-31.353C50.467,18.163,45.209,12,38.723,12z"></path>
@@ -55,13 +56,13 @@
                             </svg>
                             <div class="comments">31</div>
                         </div>
-                    </div>                  
+                    </div>                
                 </div> 
             <hr>   
-            <div id="content"><p class="py-2">Another common question I’m answering working with scaling tech companies is…</p>
+            <div id="content" class="text-xl sm:text-base text-gray-800 leading-normal"><p class="py-2">Another common question I’m answering working with scaling tech companies is…</p>
 <p class="py-2">Question: What virus infects growing engineering orgs the most?</p>
 <p class="py-2">Answer: Layerinitis. Let me explain… </p>
-<p class="py-2"><img class="w-3/5 h-3/5 rounded-lg shadow-lg mx-auto" src="chapter3-assets/3_1477399259829866504.jpg" alt="3_1477399259829866504">
+<p class="py-2"><img class="sm:w-3/5 sm:h-3/5 rounded-lg shadow-lg mx-auto" src="chapter3-assets/3_1477399259829866504.jpg" alt="3_1477399259829866504">
 <em>image adapted from <a class="underline text-purple-600" href="https://xkcd.com/2347/">xkcd</a></em></p>
 <p class="py-2">As your eng org grows you have to organize into teams. Companies start with shared ownership of the code base and small project teams that form and disband. It's a good model, but past 50+ engineers that falls apart…</p>
 <p class="py-2">In 2015 at Shopify there was a busy file called api_client.rb. I spoke to the last 20 committers. Everyone was adding new attributes, but when asked why the answer was "I was just following what the previous committer did" an "had a deadline".</p>
@@ -73,7 +74,7 @@
 <p class="py-2">But what you didn't realize is that layerinitis has been lurking just waiting to attack your org. It's triggered right at that moment when you think you have the perfect architecture and team structure. And it hits hard.</p>
 <p class="py-2">You also likely have PMs matched up to each team and you want them to be as independent as possible. You want to stay fast and nimble and your incentives are aligned for that (promotions, raises)…</p>
 <p class="py-2">Then you realize that 80% of the projects that introduce new features or capabilities look like this: </p>
-<p class="py-2"><img class="w-3/5 h-3/5 rounded-lg shadow-lg mx-auto" src="chapter3-assets/3_1477399273419403267.jpg" alt="3_1477399273419403267"></p>
+<p class="py-2"><img class="sm:w-3/5 sm:h-3/5 rounded-lg shadow-lg mx-auto" src="chapter3-assets/3_1477399273419403267.jpg" alt="3_1477399273419403267"></p>
 <p class="py-2">But the code is always added at the top of your stack. This is a very human response by teams, you have incentives aligned to ship fast at the teams level and it's much easier to measure that vs if the code in the right spot for the long term health of your system.</p>
 <p class="py-2">The technical definition for layerinitis is teams putting code where they are most comfortable while optimizing for speed vs putting the code where it belongs when considering a longer term perspective on the overall software system.</p>
 <p class="py-2">It's very easy to diagnose, so that's great news. Ask teams where the code should go for their project if they break down the capabilities they are introducing with their project into the model introduced here: <a class="underline text-purple-600" href="https://twitter.com/jmwind/status/1470894712538103813?s=20">twitter.com/jmwind/status/…</a></p>
@@ -89,7 +90,7 @@
 <p class="py-2">Once you have a few good cultural habits, the next change that helps is a process one. Ensure you have enough flexibility in your roadmaps to put people from across different layers of your stack onto the projects that need them…</p>
 <p class="py-2">…this may sound trivial, but every company has an army of people managing crazy gantt charts that will explode when re-jiggle people. But do it anyway. </p>
 <p class="py-2">You had one job as a manager… put the right skills on the right projects. Period. </p>
-<p class="py-2"><img class="w-3/5 h-3/5 rounded-lg shadow-lg mx-auto" src="chapter3-assets/3_1477399291928866816.jpg" alt="3_1477399291928866816"></p>
+<p class="py-2"><img class="sm:w-3/5 sm:h-3/5 rounded-lg shadow-lg mx-auto" src="chapter3-assets/3_1477399291928866816.jpg" alt="3_1477399291928866816"></p>
 <p class="py-2">The next layerinitis defence is standardizing access and setup of any code base in your company. You should have the same command to setup a dev environment, test, tools for every code base.</p>
 <p class="py-2">You need amazing READMEs that assume that those reading are new and want to learn how to contribute vs just use. Again, sounds trivial but some many teams have crappy READMEs that make it hard and intimidating to setup and contribute.</p>
 <p class="py-2">That's the short summary of why I think that layerinitis is the worst virus that will eventually infect your engineering org and the defences you can start to build now.</p></div>
