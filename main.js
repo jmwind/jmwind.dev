@@ -18,7 +18,7 @@ class RightSideHeader extends HTMLElement {
                     <a href="/#about">
                         About
                     </a>
-                    <a chref="#contact">
+                    <a href="#contact">
                         Contact
                     </a>
                 </div>
