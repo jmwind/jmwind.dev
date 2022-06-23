@@ -10,7 +10,7 @@ The Agile development process is the worst for this as the coveted "burn down" c
 
 But in high growth companies, problems never go away. If every year you have 100 problems in your company. With the product, people, processes... what ever... every single year you will still have 100 problems. EVERY YEAR... 100 problems. Most aren't going away. And those that are fixed are replaced immediately. 
 
-If problems never go away, you have to measure progress differently. It will require building an entire new mental model for progress. Throw out burn down charts completely. This sounds simple, but it's the number one reason why most people can't handle hyper growth.
+If most problems never go away year by year, you have to measure progress differently. It will require building an entire new mental model for progress. Throw out burn down charts completely. This sounds simple, but it's the number one reason why most people can't handle hyper growth.
 
 Say hello to the "problem upgrade chart". Burn this into your mind. It will save you.
 
