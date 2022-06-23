@@ -12,13 +12,13 @@ class RightSideHeader extends HTMLElement {
                     </a>
                 </div>
                 <div class="pl-4 px-2 p-1 text-xs md:text-sm text-gray-500 text-xs no-underline hover:no-underline">
-                    <a href="/#book">
+                    <a class="p-1" href="/#book">
                         Book
                     </a>
-                    <a href="/#about">
+                    <a class="p-1" href="/#about">
                         About
                     </a>
-                    <a href="#contact">
+                    <a class="p-1" href="#contact">
                         Contact
                     </a>
                 </div>
