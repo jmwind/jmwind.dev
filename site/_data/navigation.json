@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "text": "Home",
+      "url": "/",
+      "external": false
+    },
+    {
+      "text": "Book",
+      "url": "/posts",
+      "external": false
+    },
+    {
+      "text": "About Me",
+      "url": "/posts",
+      "external": false
+    }
+  ]
+}
