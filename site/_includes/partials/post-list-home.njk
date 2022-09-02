@@ -2,25 +2,25 @@
 
 {% if postListItems.length %}
   <section class="l-container">
-    <div class="l-stack">
+    <div class="l-stack">    
       {% if postListHeading %}
         <h2 class="h3">{{ postListHeading }}</h2>
       {% endif %}
       {% if postListHeadingIntro %}
-        <p>{{ postListHeadingIntro }}</p>
+        <p class="subheading">{{ postListHeadingIntro }}</p>
       {% endif %}
       <ul class="l-post-stack" reversed>
         {% for item in postListItems %}
           <li class="post-stack-item">
+           {% if item.data.image %}
+              <div class="img-container"> <a href="{{ item.url }}" rel="bookmark"><img src="{{item.data.image}}" /></a></div>
+            {% endif %}
             <{{postListHeadingLevel}} class="h4">
               <a href="{{ item.url }}" rel="bookmark">{{ item.data.title }}</a>
-            </{{postListHeadingLevel}}>
-            <p>
-              <time class="post-stack-date" datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
-            </p>
+            </{{postListHeadingLevel}}>           
             {% if item.data.description %}
               <p>{{item.data.description}}</p>
-            {% endif %}
+            {% endif %}           
           </li>
         {% endfor %}
       </ul>
