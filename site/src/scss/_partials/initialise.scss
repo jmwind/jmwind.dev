@@ -61,7 +61,7 @@ a {
 
 a:focus,
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 input::-webkit-input-placeholder,
@@ -83,8 +83,8 @@ img {
 }
 
 :focus {
-  outline: 2px dashed $COLOR_MID;
-  outline-offset: 2px;
+  //outline: 2px solid $COLOR_MID;
+  //outline-offset: 2px;
 }
 
 [tabindex="-1"]:focus {

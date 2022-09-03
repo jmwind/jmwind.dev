@@ -2,7 +2,7 @@
 title: "Chapter 2: Platform investments"
 date: "2020-10-02"
 image: "/c2-investment-types.jpg"
-description: "How much of your r&d spend should be focused on platform work?"
+description: "How much of your r&d spend should be focused on platform work? It's more than you think and there's a good reason."
 bookmarks: false
 permalink: '/book/platform-investments.htm'
 ---

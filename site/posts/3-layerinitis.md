@@ -1,7 +1,7 @@
 ---
 title: "Chapter 3: Layerinitis"
 date: "2020-10-01"
-description: "This virus infects growing engineering orgs the most and is hard to notice."
+description: "This virus infects growing engineering orgs the most and is hard to notice. It slows you down, and worse manes you'll put the code in the wrong spot."
 image: /c3-layerinitis.jpg
 permalink: '/book/layerinitis.htm'
 ---
