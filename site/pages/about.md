@@ -1,13 +1,13 @@
 ---
-title: "About me"
+title: About Me
 date: "2020-11-01"
-description: "Hi, nice to meet you"
+description: 
 image: "/c1-moar-problems.png"
 ---
 
-<img align="left" width="40%" height="40%" src="/me.webp">
+<img align="center" style="display: block;margin-left: auto;margin-right: auto;width: 30%;border-radius: 50%" src="/me.webp">
 
-My name is Jean-Michel. I've worked in tech for 30 years, building software and then building teams and companies.
+Hi, nice to meet you. My name is Jean-Michel. I've worked in tech for 30 years, building software and then building teams and companies.
 
 I'm a software developer and have built and led teams of 1 to 3,000. I was a founding member on the Eclipse platform and open source team, and then led and scaled the engineering orgs at Atlassian and Shopify from hundreds to thousands of developers.
 
