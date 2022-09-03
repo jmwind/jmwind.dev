@@ -14,7 +14,7 @@ const criticalCSSTransform = require("./site/transforms/critical-css-transform.j
 // Import data files
 const site = require("./site/_data/site.js");
 
-module.exports = function(config) {
+module.exports = function (config) {
   // Filters
   config.addFilter("dateFilter", dateFilter);
   config.addFilter("markdownFilter", markdownFilter);
@@ -66,7 +66,7 @@ module.exports = function(config) {
   return {
     dir: {
       input: "site",
-      output: "dist"
+      output: "_site"
     },
     passthroughFileCopy: true
   };
