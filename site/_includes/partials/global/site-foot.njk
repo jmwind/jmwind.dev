@@ -7,17 +7,15 @@
             <div class="l-site-name l-site-name--footer">
               <img src="/logo.webp" />
               <div class="l-site-title site-title">{{ site.name }}</div>
-            </div>
-            {% if site.shortDesc %}
-              <p>{{ site.shortDesc }}</p>
-            {% endif %}
+            </div>           
           </div>
-          <div class="l-footer-nav">
-            {% set navLocation = 'footer' %}
-            {% include "partials/nav.njk" %}
+            <a href="">Twitter</a>
+            <a href="">GitHub</a>
+            <a href="">LinkedIn</a>
+            <a href="">Email</a>            
           </div>
         </div>
-        <p class="powered-by">Made by {{site.authorName}} with 11ty and Keystone</p>
+        <p class="powered-by">Powered by <a href="https://www.11ty.dev/">Eleventy</a></p>
       </div>
     </div>
   </div>

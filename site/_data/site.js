@@ -6,7 +6,7 @@ module.exports = {
   authorEmail: "mike@madebymike.com.au",
   authorHandle: "@MikeRiethmuller",
   authorName: "Mike",
-  postsPerPage: 4,
+  postsPerPage: 6,
   socialImage: "/img/social.jpg",
   theme: {
     primary: {

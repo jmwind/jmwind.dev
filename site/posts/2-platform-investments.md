@@ -1,14 +1,10 @@
 ---
-title: JAMstack plus
-date: "2019-10-30"
-description: "The growing complexity of JAMstack sites is now often comparable to the set-up and maintenance costs of platforms like WordPress. We need a better approach."
-tags:
-  - demo-content
-  - sample-post
-  - blog
-comments: false
-claps: false
+title: "Chapter 2: Platform investments"
+date: "2020-10-02"
+image: "/c2-investment-types.jpg"
+description: "How much of your r&d spend should be focused on platform work?"
 bookmarks: false
+permalink: '/book/platform-investments.htm'
 ---
 
 Traditionally adding features that have persistent data and user generated content on JAMstack sites is difficult. Many solutions involve complicated build processes and multiple third-party services.

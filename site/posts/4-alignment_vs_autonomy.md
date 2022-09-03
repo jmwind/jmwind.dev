@@ -1,15 +1,9 @@
 ---
-title: "Chapter 2: Platform investments"
-date: "2019-11-02"
-image: "/c2-investment-types.jpg"
-description: "The growing complexity of JAMstack sites is now often comparable to the set-up and maintenance costs of platforms like WordPress. We need a better approach."
-tags:
-  - demo-content
-  - sample-post
-  - blog
-comments: false
-claps: false
-bookmarks: false
+title: "Chapter 4: Alignment > Autonomy"
+date: "2020-09-01"
+description: What's the worst leadership advice you've ever heard? This one is bad, because it sounds so good.
+image: "/c4-alignment.jpg"
+permalink: '/book/alignment.htm'
 ---
 
 Traditionally adding features that have persistent data and user generated content on JAMstack sites is difficult. Many solutions involve complicated build processes and multiple third-party services.

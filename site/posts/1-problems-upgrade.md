@@ -1,11 +1,9 @@
 ---
-title: Getting started
-date: "2019-11-01"
-description: "Supermaya is an Eleventy starter kit designed to help you add rich features to a blog or website without the need for a complicated build process."
-tags:
-  - demo-content
-  - sample-post
-  - blog
+title: "Chapter 1: The problem upgrade chart"
+date: "2020-11-01"
+description: "Everything starts with how you perceive progress. So how do you handle/manage the stress of working in a hyper-growth company where there's always too much to do?"
+image: "/c1-moar-problems.png"
+permalink: '/book/problems-upgrade.htm'
 ---
 
 It comes with all the blog standard features:

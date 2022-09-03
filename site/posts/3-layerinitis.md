@@ -1,8 +1,9 @@
 ---
-title: "Chapter 1: The problem upgrade chart"
-date: "2020-11-01"
-description: "Everything starts with how you perceive progress. So how do you handle/manage the stress of working in a hyper-growth company where there's always too much to do?"
-image: "/c1-moar-problems.png"
+title: "Chapter 3: Layerinitis"
+date: "2020-10-01"
+description: "This virus infects growing engineering orgs the most and is hard to notice."
+image: /c3-layerinitis.jpg
+permalink: '/book/layerinitis.htm'
 ---
 
 It comes with all the blog standard features:

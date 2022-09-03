@@ -1,20 +1,20 @@
-.l-post-list > * {
+.l-post-list>* {
   max-width: 60ch;
 }
 
-.l-post-list > * + * {
+.l-post-list>*+* {
   margin-top: 2rem;
 }
 
 .l-post-intro {
-  padding: 3rem 0 2rem 0;
+  padding: 1rem 0 0.5rem 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 }
 
-.l-post-intro > * + * {
+.l-post-intro>*+* {
   margin-top: 1rem;
 }
 
@@ -32,6 +32,7 @@
   text-decoration: underline;
   font-size: $SCALE--1;
 }
+
 .read-more:hover,
 .read-more:focus {
   text-decoration: none;
