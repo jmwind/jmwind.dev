@@ -1,7 +1,7 @@
 ---
 title: "Chapter 1: The problem upgrade chart"
 date: "2020-11-01"
-description: "Everything starts with how you perceive progress. So how do you handle/manage the stress of working in a hyper-growth company where there's always too much to do?"
+description: "Everything starts with how you perceive progress. How do you handle/manage the stress of working in a hyper-growth company where there's always too much to do?"
 image: "/c1-moar-problems.png"
 permalink: '/book/problems-upgrade.htm'
 ---

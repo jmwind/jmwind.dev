@@ -8,4 +8,4 @@ allPostsText: See all chapters
 socialImage: ""
 ---
 
-The world needs more innovation and building than ever, but we're getting <ins>[slower](https://patrickcollison.com/fast)</ins>. This book will help you to see root causes in yourself, your teams, and company and concrete tools to get back to building fast.
+The world needs more innovation and building than ever, but we're getting <ins>[slower](https://patrickcollison.com/fast)</ins>. This book will help you to see root causes in yourself, your teams, and company and give you concrete tools to get back to building fast.
