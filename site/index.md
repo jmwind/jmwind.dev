@@ -1,6 +1,6 @@
 ---
 layout: "layouts/home.njk"
-title: Home - Build Right Side
+title: Home
 title2: Companies get slow slowly
 postsHeading: Book
 postsHeadingIntro: I'm writing in real-time and publishing chapters as they come. I didn't want to hold back content that can help you today! One day it will be time to re-arrange, bundle, and publish. But for now, it's time to write.
