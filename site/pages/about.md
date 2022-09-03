@@ -5,7 +5,7 @@ description: "Hi, nice to meet you"
 image: "/c1-moar-problems.png"
 ---
 
-<img align="left" border-radius="30%" width="40%" height="40%" src="/me.webp">
+<img align="left" width="40%" height="40%" src="/me.webp">
 
 My name is Jean-Michel. I've worked in tech for 30 years, building software and then building teams and companies.
 

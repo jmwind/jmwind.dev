@@ -3,11 +3,11 @@
 }
 
 .l-post-list>*+* {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .l-post-intro {
-  padding: 1rem 0 0.5rem 0;
+  padding: 0rem 0 0.5rem 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -15,12 +15,17 @@
 }
 
 .l-post-intro>*+* {
-  margin-top: 1rem;
+  margin-top: 0.0rem;
 }
 
 .post-description {
   font-weight: bold;
-  font-size: $SCALE-1;
+  font-size: $SCALE-0
+}
+
+.post-title {
+  font-weight: bold;
+  font-size: $SCALE-1
 }
 
 .post-meta {

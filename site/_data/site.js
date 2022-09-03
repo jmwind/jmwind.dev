@@ -1,13 +1,12 @@
 module.exports = {
   name: "Build Right Side",
-  shortDesc:
-    "An 11ty starter kit designed to help you add rich features to a site without a complicated build process.",
-  url: "",
-  authorEmail: "mike@madebymike.com.au",
-  authorHandle: "@MikeRiethmuller",
-  authorName: "Mike",
+  shortDesc: "Personal website for my book",
+  url: "buildrightside.com",
+  authorEmail: "jmwind@gmail.com",
+  authorHandle: "@jmwind",
+  authorName: "Jean-Michel",
   postsPerPage: 6,
-  socialImage: "/img/social.jpg",
+  socialImage: "/me.webp",
   theme: {
     primary: {
       background: "#161B1C",

@@ -6,142 +6,42 @@ image: "/c1-moar-problems.png"
 permalink: '/book/problems-upgrade.htm'
 ---
 
-It comes with all the blog standard features:
+It's hard working in fast growing companies. It often feels like everything is moving 10x faster than you are used to and it takes time to learn how to feel comfortable and productive. Given this, it's no surprise that one of the most common questions from scaling companies is:
 
-- Posts and Pages
-- Pagination
-- Tags
-- Static server-rendered content
+Question: How do you handle/manage the stress of working in a hyper-growth company where there's always too much to do?
 
-A bunch of good practices:
+Answer: It's a mindset change: problems upgrade but don't go away. Let me explain...
 
-- RSS feed
-- \*Considerate mark-up
-- Service worker with offline content
-- Lazy loading images
-- Critical CSS
+The reason this problem mindset is hard to develop is our human bias that gets in the way... From childhood we are trained to see work equate with problems diminishing over time. You finish your assignment, and it's done. You complete your courses, you finish a sports game.
 
-_\*Considerate means semantic, accessible mark-up, written for both humans and machines._
+The Agile development process is the worst for this as the coveted "burn down" chart is what you use to see if you're doing a good job as a team. You equate progress with "less story points". You measure your self-worth with problems going away.
 
-<br>
+But in high growth companies, problems never go away. If every year you have 100 problems in your company. With the product, people, processes... what ever... every single year you will still have 100 problems. EVERY YEAR... 100 problems. Most aren't going away. And those that are fixed are replaced immediately. 
 
-Additional features:
+If most problems never go away year by year, you have to measure progress differently. It will require building an entire new mental model for progress. Throw out burn down charts completely. This sounds simple, but it's the number one reason why most people can't handle hyper growth.
 
-- Seamless JavaScript and SCSS compilation (no build process)
-- Data-driven navigation
-- Customisable settings including theming
+Say hello to the "problem upgrade chart". Burn this into your mind. It will save you.
 
-Additional features:
+Yearly progress is when 5-15% of your problems are new.  And not that they all go away. Remember, you will always have 100 problems.
 
-- Comments
-- Claps
-- Reading List
-- Login
+![3_1460280332536750092](chapter1-assets/3_1460280332536750092.jpg)
 
-These additional features that have persistent data including user generated content. On JAMstack sites including rich content usually means complicated build processes and multiple third-party services. This doesn't sit well with me since owning my own data and tinkering with the platform is a big motivation for building a static personal site.
+Why will this save you? Because your entire self-worth is based on a bad mental model. If you can start seeing problem upgrading vs problem disappearing you will learn to see progress.
 
-That's why I opted to pair Supermaya with [KeystoneJS](https://keystonejs.com/) to create a unified API that you own and manage. Each of these features are added progressively with JavaScript and will fail gracefully if not configured or the server can't be reached. You can opt-out on a per feature basis by modifying the data in `site/_data/site.js`, or on a per-page basis with front-matter.
+And progress is the fuel for our work.
 
-## Deploying Supermaya + Keystone
+The hard part is that you can't log into JIRA and see a problem upgrade chart. So you have to build some ways to see your company with this lens without a tool. 
 
-To get started deploy the [Keystone JAMstack plus starter kit](https://github.com/MadeByMike/keystone-jamstack-plus) platform to Heroku.
+Write down a problem list at the start of the year, things that really piss you off.
 
-Once installed visit the site on Heroku and copy your Keystone API URL. Follow the instructions to automatically deploy Supermaya to Netlify where you will be asked to enter the Keystone API URL.
+Every year review that list and if you can cross out 10-15% of the items, you're killing it! Pop open the champagne, have a progress dance, and be super happy!
 
-Supermaya is designed work with the Keystone JAMstack plus platform to be a launch pad for larger ideas. Allowing you to go all the way from a simple static website to a feature rich application if you want.
+Then start sharing this mindset with your colleagues. 
 
-**Note**: Rich features are optional. Supermaya is a perfectly good starter template for 11ty without any other services. You can deploy Supermaya on it's own and add a `KEYSTONE_API` environmental variable later if you wish.
+There are a lot of people around you who are devout pessimists that will drag you down. It's really hard to stay positive in a sea of burndown zealots. 
 
-## Deploying Supermaya
+But keep pushing. You've got this! It's an absolute honour being in a growing company. 
 
-To deploy Supermaya on its own you can use this link to [deploy to Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/MadeByMike/supermaya). Leave the `KEYSTONE_API` blank if you don't have one. Alternatively you can clone this repository and run it locally.
+The problem upgrade chart and mindset will make it fun in addition to being an honour. This has been my secret to not burning out over 26 years in high growth teams/companies. 
 
-## Starting Supermaya
-
-To start the project run:
-
-```
-npm install
-```
-
-Then:
-
-```
-npm start
-```
-
-## Configure site information
-
-Configure important site-wide information like the site name, description and default author information:
-
-```
-site/_data/site.js
-```
-
-## Configure navigation
-
-Change the site navigation by modifying:
-
-```
-site/_data/navigation.json
-```
-
-## Color schemes
-
-Supermaya includes basic theming. Select an alternative to the black and white feature colors by modifying the `theme` in:
-
-```
-site/_data/site.js
-```
-
-## Keystone features
-
-If you connected Supermaya to a keystone backend you can toggle features under `keystone` in:
-
-```
-site/_data/site.js
-```
-
-## Add CSS
-
-In Supermaya SCSS files are compiled on-the-fly by 11ty and added to data. This means you can write inline CSS directly into templates and partials like this: `<style>{% raw %}{{css["compilation-target"] | safe}}{% endraw %}</style>`. Where "compilation-target" is the key added to the list of SCSS files to compile in:
-
-```
-site/_data/css.js
-```
-
-Each entry added to the `targets` array will be available as site data and a static file will also be written to `css/[compilation-target].css`.
-
-Source files for scss have been added to the directory `site/src/scss`.
-
-## Add JavaScript
-
-Similar to how SCSS works, JavaScript files in Supermaya are also compiled on-the-fly using Webpack.
-
-The Webpack configuration contains a loader for `.js` files that will transpile ES6 to ES5 meaning you can safely write modern JavaScript. The Webpack configuration can be extended or modified in: `site/utils/compile-webpack.js`.
-
-Files generated by Webpack are added to site data so you can write inline JavaScript in templates and partials like this: `<script>{% raw %}{{css["output-filename"] | safe}}{% endraw %}</script>`. The "output-filename" should be the full name of a file generated by Webpack including the extension.
-
-You can add additional entry points by modifying the `targets` array in:
-
-```
-site/_data/js.js
-```
-
-Each file generated will also be available as a static file at the path: `js/[output-filename]`.
-
-Source files for javascript have been added to the directory `site/src/js`.
-
-## Critical CSS
-
-Supermaya is capable of generating criticalCSS although this is turned off by default for performance reasons. You can turn this feature on by modifying:
-
-```
-site/_data/site.js
-```
-
-## Why "Supermaya"
-
-A friend and designer Matt Barron, helped me out with some initial design work and used it as a placeholder for the site name in early mock-ups. As usual development names grow on you. I later learned it was the name of his family dog. It's a combination of Superman and Maya, one of his kids favourite cartoon characters. That settles it, right? And here's a picture:
-
-<img src="/supermaya.jpg" width="600"/>
+Happy company building to all!
