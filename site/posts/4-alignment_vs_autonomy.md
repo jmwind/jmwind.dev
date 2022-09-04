@@ -3,7 +3,6 @@ title: "Chapter 4: Alignment > Autonomy"
 date: "2020-09-01"
 description: What's the worst leadership advice you've ever heard? This one is bad, because it sounds so good.
 image: "/c4-alignment.jpg"
-permalink: '/book/alignment.htm'
 ---
 
 Traditionally adding features that have persistent data and user generated content on JAMstack sites is difficult. Many solutions involve complicated build processes and multiple third-party services.

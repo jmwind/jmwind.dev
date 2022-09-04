@@ -1,12 +1,16 @@
+nav {
+  display: flex;
+}
+
 .l-navigation {
   display: flex;
 }
 
-.l-navigation > * {
+.l-navigation>* {
   white-space: pre;
 }
 
-.l-navigation > * + * {
+.l-navigation>*+* {
   margin-left: 0.5rem;
 }
 
@@ -15,6 +19,7 @@
 }
 
 $footer-nav-breakpoint: 1000px;
+
 .l-footer-nav {
   --footer-nav-display: none;
 }

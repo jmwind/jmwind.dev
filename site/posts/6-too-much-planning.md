@@ -3,7 +3,6 @@ title: "Chapter 6: Too much planning"
 date: "2019-06-01"
 description: "When you over-plan for years, the ratio of non-builders to builders grows, more planning will happen. More distractions. Less building."
 image: "/c6-planning.jpg"
-permalink: '/book/too-much-planning.htm'
 ---
 
 A lot of modern sites rely on tools like Sass and Babel to transpile CSS and JavaScript. They usually require build tools like Gulp or Webpack to trigger this and most larger sites have additional build steps that do anything from fetching data, to minify code, to optimise images or almost anything else.

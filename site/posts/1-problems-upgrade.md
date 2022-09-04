@@ -3,7 +3,6 @@ title: "Chapter 1: The problem upgrade chart"
 date: "2020-11-01"
 description: "Everything starts with how you perceive progress. How do you handle/manage the stress of working in a hyper-growth company where there's always too much to do?"
 image: "/c1-moar-problems.png"
-permalink: '/book/problems-upgrade.htm'
 ---
 
 It's hard working in fast growing companies. It often feels like everything is moving 10x faster than you are used to and it takes time to learn how to feel comfortable and productive. Given this, it's no surprise that one of the most common questions from scaling companies is:
