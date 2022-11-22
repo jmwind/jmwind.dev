@@ -35,7 +35,8 @@ Platform work is also the most important retention tool for your engineers. Give
 
 A way of visualizing your r&d investments is with 3 buckets. Having the right mix is critical. They work together. A healthy investment distribution is 50% platform, 40% features, and 10% experiments. You can skew for short periods, but over the long term its fatal. 
 
-![3_1470894724865085440](chapter2-assets/3_1470894724865085440.jpg)
+![1_1470894724865085440](chapter2-assets/rnd-velocity.png)
+![3_1470894724865085440](chapter2-assets/exp-fea-plat.png)
 
 The feedback loop between investment types is critical. Feature and experiments inform your platform roadmap, and inversely platform provides leverage to build more features/experiments. If not balanced, you loose these feedback loops. And the feedback loops guide you.
 
@@ -62,5 +63,3 @@ Platform work has an interesting attribute in that the side effects of low inves
 So you can ignore it for a bit. Then a bit more..and... bam💥. You're asking, why do I have to invest in platform work again?
 
 Building software is hard, there's no silver bullet. But have a strategy around what you're building and what role it plays short and long term. Build a tech investment system that reinforces itself. That's why I suggest you spend 50% of your r&d budget on your platform. 
-
-[pic.twitter.com/7eFACgJrwA](https://twitter.com/jmwind/status/1470894740505722880/photo/1)
