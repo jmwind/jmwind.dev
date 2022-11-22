@@ -7,7 +7,7 @@ class RightSideHeader extends HTMLElement {
             <div class="w-full md:max-w-4xl mx-auto flex flex-wrap items-center justify-between mt-0 py-3">
                 <div class="pl-4 flex flex-wrap items-center justify-between">
                     <a href="/"><img class="w-4 sm:w-10" width="40" height="40" src="/images/logo.webp"></a>
-                    <a class="p-3 text-gray-900 no-underline hover:no-underline sm:font-extrabold text-xs md:text-3xl" href="/">
+                    <a class="p-3 text-gray-900 no-underline hover:no-underline text-s md:text-3xl" href="/">
                         Building from the right side
                     </a>
                 </div>
@@ -100,7 +100,7 @@ class RightSideFooter extends HTMLElement {
 customElements.define('rs-header', RightSideHeader);
 customElements.define('rs-footer', RightSideFooter);
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     var h = document.documentElement,
         b = document.body,
         st = 'scrollTop',
@@ -140,11 +140,11 @@ const classMap = {
 
 function replaceString(key, map) {
     let subs = `<${key} class="${classMap[key]}" $1>`;
-    if(key == 'ul') {
+    if (key == 'ul') {
         return `<div class="ml-10">${subs}`;
-    } else if(key == "/ul") {
+    } else if (key == "/ul") {
         return `${subs}</div>`;
-    } else {        
+    } else {
         return subs;
     }
 }
@@ -156,16 +156,16 @@ const bindings = Object.keys(classMap).map(key => ({
 }));
 
 let loadContent = (doc, filename) => {
-        doc.addEventListener("DOMContentLoaded", function() {
-            fetch(filename).then(function(response) {
-                return response.text().then(function(text) {
-                    var converter = new showdown.Converter({extensions: [...bindings]});                                
-                    var html = converter.makeHtml(text);
-                    let elem = doc.getElementById('content');
-                    elem.innerHTML = html;
-                });
-            });                
+    doc.addEventListener("DOMContentLoaded", function () {
+        fetch(filename).then(function (response) {
+            return response.text().then(function (text) {
+                var converter = new showdown.Converter({ extensions: [...bindings] });
+                var html = converter.makeHtml(text);
+                let elem = doc.getElementById('content');
+                elem.innerHTML = html;
+            });
         });
-    }
+    });
+}
 
 export { loadContent };
