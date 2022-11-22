@@ -16,7 +16,7 @@ Say hello to the "problem upgrade chart". Burn this into your mind. It will save
 
 Yearly progress is when 5-15% of your problems are new.  And not that they all go away. Remember, you will always have 100 problems.
 
-![3_1460280332536750092](chapter1-assets/chart.jpg)
+![3_1460280332536750092](chapter1-assets/chart.png)
 
 Why will this save you? Because your entire self-worth is based on a bad mental model. If you can start seeing problem upgrading vs problem disappearing you will learn to see progress.
 
