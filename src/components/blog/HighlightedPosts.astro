@@ -14,7 +14,7 @@ export interface Props {
 
 const {
   title = await Astro.slots.render('title'),
-  allPostsText = 'View all posts',
+  allPostsText = 'More chapters',
   allPostsLink = getBlogPermalink(),
   information = await Astro.slots.render('information'),
   postIds = [],
@@ -23,7 +23,7 @@ const {
 const posts = await findPostsByIds(postIds);
 ---
 
-<section class="px-4 py-16 mx-auto max-w-6xl lg:py-20">
+<section class="bg-primary-50 dark:bg-slate-800 px-4 py-16 mx-auto max-w-6xl lg:py-20">
   <div class="flex flex-col lg:justify-between lg:flex-row mb-8">
     <div class="md:max-w-sm">
       {

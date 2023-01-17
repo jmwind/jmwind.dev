@@ -16,6 +16,7 @@ const blog = defineCollection({
     category: z.string().optional(),
     tags: z.array(z.string()).optional(),
     author: z.string().optional(),
+    nextpost: z.string().optional(),
   },
   slug: ({ defaultSlug, data }) => {
     return data.permalink || defaultSlug;

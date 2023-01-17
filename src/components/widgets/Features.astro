@@ -1,10 +1,12 @@
 ---
 import { Icon } from 'astro-icon';
+import { getPermalink } from '~/utils/permalinks';
 
 interface Item {
   title: string;
   description: string;
   icon?: string;
+  href?: string;
 }
 
 export interface Props {
@@ -22,7 +24,7 @@ const {
 } = Astro.props;
 ---
 
-<section class="scroll-mt-16" id="features">
+<section class="scroll-mt-16 snap-start bg-primary-50 dark:bg-slate-800" id="features">
   <div class="px-4 py-16 mx-auto max-w-6xl lg:px-8 lg:py-20">
     {
       (title || subtitle || highlight) && (
@@ -33,11 +35,11 @@ const {
               set:html={highlight}
             />
           )}
-          {title && (
+          {title && (            
             <h2
               class="text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-4 font-heading"
               set:html={title}
-            />
+            />          
           )}
 
           {subtitle && (
@@ -50,7 +52,7 @@ const {
       {
         items.map((subitems) => (
           <div class="space-y-8 sm:px-8">
-            {subitems.map(({ title, description, icon }) => (
+            {subitems.map(({ title, description, icon, href }) => (
               <div class="flex flex-row max-w-md">
                 <div class="mb-4 mr-4">
                   <div class="flex items-center justify-center w-12 h-12 rounded-full bg-primary-800 dark:bg-primary-700">
@@ -58,7 +60,14 @@ const {
                   </div>
                 </div>
                 <div>
-                  <h3 class="mb-3 text-xl font-bold">{title}</h3>
+                  <h3 class="mb-3 text-xl font-bold">
+                    <a
+                      href={getPermalink(href, 'blog')}
+                      class="hover:text-primary-800 dark:hover:text-primary-700  transition ease-in duration-200"
+                    >
+                    {title}
+                    </a>
+                  </h3>
                   <p class="text-gray-600 dark:text-slate-400" set:html={description} />
                 </div>
               </div>
