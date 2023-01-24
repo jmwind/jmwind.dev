@@ -4,7 +4,7 @@ title: The Problem Upgrade Chart
 description: How do you handle/manage the stress of working in a hyper-growth company where there's always too much to do?
 excerpt: There are a lot of people around you who are devout pessimists that will drag you down. It's really hard to stay positive in a sea of burndown zealots.
 canonical: https://buildrightside.com/problem-upgrade-chart
-nextpost: astrowind-template-in-depth
+nextpost: platform-investments
 ---
 
 It's hard working in fast growing companies. It often feels like everything is moving 10x faster than you are used to and it takes time to learn how to feel comfortable and productive. Given this, it's no surprise that one of the most common questions from scaling companies is:

@@ -4,16 +4,18 @@ import Logo from '~/components/common/Logo.astro';
 import ToggleTheme from '~/components/common/ToggleTheme.astro';
 import ToggleMenu from '~/components/common/ToggleMenu.astro';
 
-import { getHomePermalink, getBlogPermalink, getPermalink } from '~/utils/permalinks';
+import { getHomePermalink } from '~/utils/permalinks';
 
 const links = [  
   {
     text: 'Book',
     href: "/#book",
+    link: []
   },
   {
     text: 'About',
     href: "/#about",
+    links: []
   },
 ];
 ---
