@@ -1,13 +1,13 @@
 import defaultImage from './assets/images/default.png';
 
 const CONFIG = {
-  name: '[NEW] Build Right Side - by Jean-Michel Lemieux',
+  name: 'Build Right Side - by Jean-Michel Lemieux',
 
   origin: 'https://buildrightside.com',
   basePathname: '/',
   trailingSlash: false,
 
-  title: '[NEW] Build Right Side — by Jean-Michel Lemieux',
+  title: 'Build Right Side — by Jean-Michel Lemieux',
   description: 'Helping nerds build companies, products, and platforms at scale',
   defaultImage: defaultImage,
 

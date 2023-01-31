@@ -106,7 +106,7 @@ import { SITE } from '~/config.mjs';
     });
   };
 
-  window.onpageshow = function () {
+  function closeHeaderNav() {
     document.documentElement.classList.add('motion-safe:scroll-smooth');
     const elem = document.querySelector('[data-aw-toggle-menu]');
     if (elem) {
@@ -115,5 +115,9 @@ import { SITE } from '~/config.mjs';
     document.body.classList.remove('overflow-hidden');
     document.getElementById('header')?.classList.remove('h-screen');
     document.querySelector('#header nav')?.classList.add('hidden');
+  }
+
+  window.onpageshow = function () {
+    closeHeaderNav();
   };
 </script>
