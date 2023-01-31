@@ -18,13 +18,15 @@ const meta = {
   description: SITE.description,
   dontUseTitleTemplate: true,
 };
+
+const link = 'class="hover:text-primary-800 dark:hover:text-primary-700  transition ease-in duration-200"'
 ---
 
 <Layout {meta}>
   <!-- Hero Widget ******************* -->
 
   <section>
-    <div class="max-w-4xl mx-auto px-4 sm:px-12 text-gray-500 dark:text-slate-400">      
+    <div class="max-w-4xl mx-auto pt-6 px-4 sm:px-12 text-gray-500 dark:text-slate-400">      
         <div class="sm:text-7xl text-6xl text-black dark:text-gray-300">          
             Engineering leadership                
         </div>
@@ -32,22 +34,24 @@ const meta = {
             The hard parts
         </div>
         <div class="pt-10 sm:text-2xl text-xl text-black dark:text-gray-300">        
-            You can't improve what you can't see. Many engineering leaders 
-            struggle to make key decisions because they aren't looking closely enough. 
+            You can't improve what you can't see. Many key decisions are made
+            too slowly or because leaders aren't looking closely enough.
             <br><br>
-            My passion is to highlights common patterns in technical teams, dig into the nuances, 
-            and provide tools to help you make the hard decisions that build great engineering organizasions.
+            My goal is to highlights common patterns in technical teams, dig into the nuances, 
+            and provide tools to help you make the hard decisions that build great engineering organizations 
+            and companies. And help you grow as a leader.
         </div>
-        <div class="pt-10 text-center text-2xl pb-10 md:pb-16 max-w-5xl mx-auto">        
+        <div class="pt-6 text-center text-2xl pb-10 md:pb-16 max-w-5xl mx-auto">        
             <em>“The key is always to see the thing-as-it-is in all its unique and marvelous complexity.”</em><br/> - Betty Edwards        
         </div>      
     </div>
     </section>
   
-    <a id="book"/>
+    <a class="scroll-my-20" id="book"/>
+    <section>
     <Features
     title="The Book"
-    subtitle="Easy to diggest deep dives into different areas of engineering leadership with tools to help you make important decisions."
+    subtitle="This is semi-advanced matarial. It assumes you've led teams and built a lot of software for a few years. This is a set of deep dives into different areas of engineering leadership with tools to help you make important decisions."
     items={[
         {
           title: 'Chapter 1: The problem upgrade chart',
@@ -68,6 +72,7 @@ const meta = {
           description:
             'What virus infects growing engineering orgs the most?',
           icon: 'tabler:layout-distribute-horizontal',
+          href: 'layerinitis'
         },
         {
           title: 'Chapter 4: Alignment > Autonomy',
@@ -81,7 +86,7 @@ const meta = {
           description:
             'We are getting slower as we scale, how can we get back to being fast?',
           icon: 'tabler:list-check',
-          href: 'going-fast-slowly'
+          href: 'fast-slowly'
         },
         {
           title: 'Chapter 6: Problem solving vs problem planning',
@@ -91,11 +96,11 @@ const meta = {
           href: 'problem-solving-vs-planning'
         },
         {
-          title: 'Chapther 7: Going fast slowly',
+          title: 'Chapther 7: Product Engineers',
           description:
             'Guest chapter with friend Sherif about how product engineers are important to nurture and grow on your teams.',
           icon: 'tabler:list-check',
-          href: 'going-fast-slowly'
+          href: 'https://sherifmansour.medium.com/product-engineers-f424da766871'
         },     
         {
           title: 'Chapter Next: Coming soon',
@@ -107,58 +112,128 @@ const meta = {
       ]
     }
   />
+  <div class=" bg-primary-50 dark:bg-slate-800 text-2xl pb-6 sm:px-14 px-6">        
+    <div class="max-w-3xl mx-auto text-xl text-gray-600 dark:text-slate-400">
+      <p>Companion material:</p>
+      <ul class="pt-2 list-disc">
+        <li><a class={link} href="https://getdx.com/podcast/27">DevX Engineering Enablement Podcast: How much should you invest in Platform work?</a></li>
+        <li><a class={link} href="https://www.youtube.com/watch?v=wvWy3JPITSw">TeamGage Podcast: Why is getting alignment on teams is so hard?'</a></li>
+        <li><a class={link} href="https://projecttoproduct.org/podcast/jean-michel-lemieux/?utm_source=podcast&utm_medium=speaker&utm_campaign=pod_2022-05-03_mik-plus-one-jean-michel-lemieux">Project to Product Podcast: What I've learned leading engineering teams</a></li>
+        <li><a class={link} href="https://fellow.app/supermanagers/jean-michel-lemieux-shopify-building-a-connected-network-of-brains/">Super managers Podcast: building a network of connected brains</a></li>
+        <li><a class={link} href="https://www.youtube.com/watch?v=16aDxRIrPE8">Canadian Tech@Scale Presentation: Leading your teams with maps</a></li>
+      </ul>
+    </div>       
+  </div>  
+</section>
   
 
 
   <!-- FAQs Widget ******************* -->
-  <a id="about"/>
-  <FAQs
-    title="Hi, I'm Jean-Michel"
-    subtitle="I'm a software developer and have built and led teams of 1 to 3,000. I was a founding member on the Eclipse platform and open source team, and then led and scaled the engineering orgs as CTO and VPE at Atlassian and Shopify from hundreds to several thousand developers."
-    items={[
-      [
-        {
-          question: 'Engineering Enablement Podcast: How much should you invest in Platform work?',
-          href: 'https://getdx.com/podcast/27',
-          answer:
-            'This is a great follow-up to Chapter 2 where I suggest that teams invest 50% of their roadmap on platform investments. And the responsibilities of engineering leaders in championing this work. (2022 - 22 mins)',
-        },
-        {
-          question: 'Project to Product Podcast: What I\'ve learned leading engineering teams',
-          href: "https://projecttoproduct.org/podcast/jean-michel-lemieux/?utm_source=podcast&utm_medium=speaker&utm_campaign=pod_2022-05-03_mik-plus-one-jean-michel-lemieux",
-          answer:
-            "Mik is CEO of Tasktop and we worked together 20 years ago on the Eclipse project. We catch-up and talk about a wide range of topics around engineering, architecture, scale, organizational design, and flow.",
-        }
-      ],
-      [
-      {
-          question: 'TeamGage Podcast: Why is getting alignment on teams is so hard?',
-          href: "https://www.youtube.com/watch?v=wvWy3JPITSw",
-          answer:
-            "A deep dive into the history of autonomy and our quasi-religous relationship with it. And how it gets in the way of true and much needed real-time alignment.",
-        },
-        {
-          question: 'How we get shit done at Shopify - Demo of the Vault',
-          href: "https://vimeo.com/456735890",
-          answer:
-            "We built an internal API and tool for how work gets done at Shopify. This is a demo of the tool and the principles behind it.",
-        },        
-      ],
-      [
-      {
-          question: 'Super managers: building a network of connected brains',
-          href: "https://fellow.app/supermanagers/jean-michel-lemieux-shopify-building-a-connected-network-of-brains/",
-          answer:
-            "Spoke with Aydin, the Fellow.app CEO, about the importance of knowing when to lead and when to follow, the extraversion myth, and what it means to treat your team as a “connected network of brains.",
-        },
-        {
-          question: 'Leading your teams with maps',
-          href: "https://www.youtube.com/watch?v=16aDxRIrPE8",
-          answer:
-            "We built an internal API and tool for how work gets done at Shopify. This is a demo of the tool and the principles behind it.",
-        },        
-      ],
-    ]}
-  />
+  <a class="scroll-my-12" id="about"/>
+  <section>
+    <div class="max-w-4xl mx-auto pt-12 px-4 sm:px-12 text-gray-500 dark:text-slate-400">      
+        <div class="sm:text-6xl text-4xl text-black dark:text-gray-300">          
+          Hi, I'm Jean-Michel                
+        </div>        
+        <img class="float-right h-auto max-w-[30%] rounded-full" src="images/me.webp"/>
+        <div class="pt-10 sm:text-2xl text-xl text-black dark:text-gray-300">        
+          It's very nice to meet you. I'm a software developer and company builder. I was a founding member on the Eclipse platform and open source team, 
+          and then led and scaled the engineering orgs as CTO and VPE at Atlassian and Shopify from hundreds to several thousand developers.        
+        <p class="py-4">
+          Community and education are big passions and co-founded <a class={link}
+              href="https://canadiantechatscale.com/">Canadian Tech @ Scale</a> which brings together
+          tech leaders from across
+          Canada and founded <a class={link} href="https://devdegree.ca">DevDegree.ca</a>
+          which is an accrediated work-integrated computer science degree unlike any other.
+      </p>
+      <p class="py-4">
+          Outside of writing and programming, I'm also working as an LP and advisor with <a class={link}
+              href="https://www.generationim.com/">Generation IM</a>
+          and
+          advisor/board with a few companies:
+          <a class={link} href="https://buildkite.com/">BuildKite</a>,
+          <a class={link} href="https://www.alayacare.com/">AlayaCare</a>,
+          <a class={link} href="https://avantarte.com/">AvantArte</a>,
+          <a class={link} href="https://dreamteamos.com/">DreamTeamOS</a>,
+          <a class={link} href="https://www.benchsci.com/">BenchSci</a>,
+          <a class={link} href="https://www.opslevel.com/">OpsLevel</a>,
+          <a class={link} href="https://www.search.io/">Search.io (acquired by
+              Algolia)</a>,
+          <a class={link} href="https://govalo.com/">Govalo</a>.
+      </p>
+      <img class="float-left h-auto mr-6 max-w-[30%] rounded-md" src="images/drawing.jpeg"/>
+      <p class="py-2">
+          I'm highly influenced by the book <a class={link}
+              href="https://twitter.com/jmwind/status/1383050070937980929?s=20">Drawing from the right
+              side of the
+              brain</a>.
+          While drawing was never my profession, learning to draw helped me appreciate the value of looking at things closely and from many angles. 
+          <br/><br/>
+          Our brain jumps to conclusions,
+          so seeing things for what they are will give you super powers in life. You can't recognize or fix what you can't see.
+          The book was also an inspiration for the name of my book and website.
+      </p> 
+      <p class="py-2">
+       Here are a few more articles and vidos to get to know me:        
+    </p>     
+    </div>
+    <div>
+      <ol class="clear-left py-2 px-8 pb-10 list-disc">     
+          <li>
+              <a class={link}
+                  href="https://www.nytimes.com/interactive/2021/10/15/style/sneaker-bots.html">
+                  New York Times - Welcome to the bot wars</a> (2021)
+          </li>
+          <li>
+              <a class={link} href="https://www.youtube.com/watch?v=bzJfPeslk8I">Bot
+                  Devevelopers confront @jmwind</a> (2021 - 1h11m)
+          </li>
+          <li>
+              <a class={link} href="https://vimeo.com/456735890">Shopify: How we get shit
+                  done</a> (2020 - 20m)
+          </li>
+          <li>
+              <a class={link} href="https://www.youtube.com/watch?v=Th7XN__ltyc">An
+                  insiders look at the technology that powers Shopify</a> (2020 - 32m)
+          </li>
+          <li>
+              <a class={link}
+                  href="https://shopify.engineering/dev-degree-a-big-bet-on-software-education">DevDegree: A big
+                  bet on software education</a> (2018)
+          </li>
+          <li>
+              <a class={link}
+                  href="https://financialpost.com/executive/careers/shopifys-dev-degree-program-accelerates-university-co-op-learning">Financial
+                  Times: Devdegree accelerates university co-op learning</a> (2018)
+          </li>
+          <li>
+              <a class={link}
+                  href="https://www.theglobeandmail.com/business/commentary/article-how-to-sustain-canadas-brain-gain/">Globe
+                  and Mail: How to sustain Canadas brain drain</a> (2018)
+          </li>
+          <li>
+              <a class={link}
+                  href="https://www.theglobeandmail.com/business/commentary/article-for-tech-workers-its-about-more-than-money/">Globe
+                  and Mail: For tech workers its about more than money</a> (2018)
+          </li>
+          <li>
+              <a class={link}
+                  href="https://alphalist.com/podcast/15-jean-michel-lemieux-cto-shopify">Alphalist podcast:
+                  Building software at scale</a> (2019 - 1h20m)
+          </li>
+          <li>
+              <a class={link}
+                  href="https://moderncto.io/167-jean-michel-lemieux-cto-shopify/">ModernCTO: Building a
+                  product centered culture</a> (2018 - 55m)
+          </li>
+          <li>
+              <a class={link} href="https://www.youtube.com/watch?v=AK8gnNwcMOg">dotScale:
+                  Extensibility as a Product</a>
+              (2014)
+          </li>
+      </ol>
+    </div>
+    </div>
+  </section>
   
 </Layout>

@@ -32,6 +32,10 @@ export const getCanonical = (path = ''): string | URL => new URL(path, SITE.orig
 export const getPermalink = (slug = '', type = 'page'): string => {
   let permalink: string;
 
+  if(slug.startsWith("http")) {
+    return slug;
+  }
+
   switch (type) {
     case 'category':
       permalink = createPath(CATEGORY_BASE, cleanSlug(slug));

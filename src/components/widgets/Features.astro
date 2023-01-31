@@ -22,10 +22,11 @@ const {
   highlight,
   items = [],
 } = Astro.props;
+
 ---
 
-<section class="scroll-mt-6 snap-start bg-primary-50 dark:bg-slate-800" id="features">
-  <div class="px-4 py-20 mx-auto max-w-6xl lg:px-8 lg:py-20">
+<section class="snap-start bg-primary-50 dark:bg-slate-800" id="features">
+  <div class="px-4 py-6 mx-auto max-w-6xl lg:px-8 lg:py-6">
     {
       (title || subtitle || highlight) && (
         <div class="mb-10 md:mx-auto text-center md:mb-12 max-w-3xl">
