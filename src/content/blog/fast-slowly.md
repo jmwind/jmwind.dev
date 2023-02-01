@@ -1,23 +1,12 @@
 ---
 publishDate: 2023-01-08T00:00:00Z
 title: Going fast slowly
-description: How much of your r&d spend should be focused on platform work?
-excerpt: have a strategy around what you're building and what role it plays short and long term. Build a tech investment system that reinforces itself. That's why I suggest you spend 50% of your r&d budget on your platform.
+description: Going fast slowly
+excerpt: Autonomy is great. But as you scale, the speed impact of only investing in getting fast fast will in fact slow you to a crawl.
 nextpost: layerinitis
 ---
 
-Another common question I’m answering working with scaling tech companies is…
-
-Question. We are getting slower as we scale, how can we get back to being fast?
-
-Answer. Invest in both getting fast fast and getting fast slowly. Let me explain...
-
-![1](chapter5-assets/autonomy-cohesiveness-chart.png)
-
-Andy Jassy was on the cover of Time magazine this month. He talks about Amazon staying fast and how autonomy is crucial.
-
-![2](chapter5-assets/time-jassy.png)
-​​
+Andy Jassy, the CEO of Amazon, was on the cover of Time magazine in 2022. He talks about Amazon staying fast and how autonomy has been their most important tool.
 
 Amazon has been obsessed with staying fast for decades: they invented the 2-pizza team and teams that only talk via APIs.
 
@@ -25,18 +14,18 @@ Autonomy is an intuitively "no shit" obvious way of getting fast.
 Reduce the collaboration friction between teams...and bingo!
 The same week that you tell two people that they don't have to work together, they immediately get faster fast.
 
-![3](chapter5-assets/collab-friction.png)
+![3](/images/fast-slowly/collab-friction.png)
 
 Autonomy is great. But as you scale, the speed impact of only investing in getting fast fast will in fact slow you to a crawl.
 It's like eating a snickers bar mid-afternoon. The sugar rush is nice, but it doesn't last long.
 
-What Jassy fails to mention: they also invested massively in getting fast slowly by reducing the amount of med/low value repeated decisions in their teams.
+What Jassy fails to mention is that they also invested massively in getting fast slowly by reducing the amount of med/low value repeated decisions in their teams.
 One is called AWS, it was built for themselves first. And took years to build. The other are leadership principles. Teams don’t have their own, they share them.
 
 Building shared standards and platforms to reduce decision friction is how you go fast slowly.
 The faster you get longer term, the more likely that removing small decisions compounded to make it happen over time.
 
-![4](chapter5-assets/decision-friction.png)
+![4](/images/fast-slowly/decision-friction.png)
 
 When you were a small team you didn't have decision friction. You had limited decisions to make and those you did make applied to everyone uniformly.
 So it's not something you prepared for until it hits you.
@@ -51,14 +40,16 @@ Building shared processes/tools/tech is running towards conflict and many imperf
 Once your company gets to a certain size the benefits you can obtain by investing in making all your teams slightly more productive with a 85% good tool/process start to swamp the slight gains that several different teams might get from going fully autonomous and doing things their own way with a 95% tool/process.
 
 It's much faster long term to be an expert with a small set of good shared tools/approaches and get the speed benefit of being an expert and not having all teams having to make that repeated decision.
-There are so many small/med decisions being made over and over that aren’t key to your business or need re-invention.
+There are so many small/med decisions being made over and over that aren’t key to your business or need re-invention. Below is how the tension between autonomy and cohesiveness work together to give you long term sustained speed, slowly.
+
+![1](/images/fast-slowly/autonomy-cohesiveness-chart.png)
 
 Let's make this more concrete and run an exercise called the “Company Speed Roadmap”. It helps you take a step back and look at what you can invest in to go fast fast and fast slowly.
 
 Start by writing down the last 7-10 initiatives that have either shipped or are shipping in your team or company.
 Accessing speed has to be done at the project/initiative level as it’s where value is created. It’s a forcing function for looking at the entire system of how teams create outcomes.
 
-![5](chapter5-assets/speed-roadmap.png)
+![5](/images/fast-slowly/speed-roadmap.png)
 
 For each initiative write down what impacted its speed and why. Then write down what you could have done quickly or slowly to fix.
 We've found it helpful to access projects from different perspectives so that you get the full picture.
@@ -127,7 +118,7 @@ And it doesn't help that there's amnesia in the tech world that the productivity
 Like the internet protocols, I recommend engineering orgs standardize big parts of how they work. Cohesion powers more autonomy of the work that matters.
 Here are some ideas on where you should be making decisions on standards to go fast over the long term. You won't get it perfect. But that's not the point.
 
-![5](chapter5-assets/eng-cohesiveness-areas.png)
+![5](/images/fast-slowly/eng-cohesiveness-areas.png)
 
 You’ll have engineers quit over some of the decisions you make with your team for the long term.
 With the breadth of engineering cohesion areas, there are a lot of opinions about each area.

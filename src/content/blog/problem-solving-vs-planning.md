@@ -1,8 +1,8 @@
 ---
 publishDate: 2023-01-08T00:00:00Z
 title: Problem solving vs problem planning
-description: How much of your r&d spend should be focused on platform work?
-excerpt: have a strategy around what you're building and what role it plays short and long term. Build a tech investment system that reinforces itself. That's why I suggest you spend 50% of your r&d budget on your platform.
+description: Problem solving vs problem planning
+excerpt: Planning is important, but most planning is wasted time. Focus on building a problem solving culture and not a problem planning one.
 nextpost: layerinitis
 ---
 
@@ -10,7 +10,7 @@ There are a million details that impact how well a company can take an idea and 
 
 The slide below was part of a deck that was shared with me explaining the "how they ship" question. It was slide 2 of 30, and at the time the team thought it was the LEAST important slide in the deck. It explained how product and engineering worked together and how they plan and prioritize work.
 
-![3_1470894724865085440](chapter6-assets/product-eng.jpeg)
+![](/images/problem-solving-vs-planning/product-eng.jpeg)
 
 I interrupted them... "can we go back?" then quietly "that is what is killing you from the inside, it's why you're slowing down".
 

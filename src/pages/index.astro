@@ -19,7 +19,7 @@ const meta = {
   dontUseTitleTemplate: true,
 };
 
-const link = 'class="hover:text-primary-800 dark:hover:text-primary-700  transition ease-in duration-200"';
+const link = 'class="hover:text-primary-800 dark:hover:text-primary-700 transition ease-in duration-200"';
 ---
 
 <Layout {meta}>
@@ -193,7 +193,15 @@ const link = 'class="hover:text-primary-800 dark:hover:text-primary-700  transit
         <p class="py-2">Here are a few more articles and videos to get to know me:</p>
       </div>
       <div>
-        <ol class="clear-left py-2 px-8 pb-10 list-disc">
+        <ol class="clear-left text-xl py-2 px-8 pb-10 list-disc">
+          <li>
+            <a
+              class={link}
+              href="https://obj.ca/life-after-shopify-giving-ottawa-entrepreneur-jean-michel-lemieux-a-second-wind/"
+            >
+              Ottawa Business Journal: Life after Shopify</a
+            >
+          </li>
           <li>
             <a class={link} href="https://www.nytimes.com/interactive/2021/10/15/style/sneaker-bots.html">
               New York Times - Welcome to the bot wars</a

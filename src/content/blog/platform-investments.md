@@ -44,7 +44,7 @@ Platform work is also the most important retention tool for your engineers. Give
 
 A way of visualizing your r&d investments is with 3 buckets. Having the right mix is critical. They work together. A healthy investment distribution is 50% platform, 40% features, and 10% experiments. You can skew for short periods, but over the long term its fatal.
 
-![3_1470894724865085440](chapter2-assets/exp-fea-plat.png)
+![3_1470894724865085440](/images/platform-investments/exp-fea-plat.png)
 
 The feedback loop between investment types is critical. Feature and experiments inform your platform roadmap, and inversely platform provides leverage to build more features/experiments. If not balanced, you loose these feedback loops. And the feedback loops guide you.
 
@@ -52,7 +52,7 @@ The long term velocity of your entire team is anchored in how well you balance t
 
 For features, you're a little more deliberate. They make take a few weeks or months to ship and you expect them to delight your customers. Platform features takes months and years to ship. But their impact is felt over a longer term. They provide leverage. When you combine these different types of investments, a simplified view of your velocity is as follows:
 
-![1_1470894724865085440](chapter2-assets/rnd-velocity.png)
+![1_1470894724865085440](/images/platform-investments/rnd-velocity.png)
 
 Platform work isn't all roses. You can burn A TON of money with wasted platform work. It’s a huge trap and the larger a company gets the more of a trap it becomes. Golden Rule of platforms...platforms are extracted from product / feature / experiences.
 

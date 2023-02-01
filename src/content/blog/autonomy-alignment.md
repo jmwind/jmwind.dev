@@ -1,27 +1,23 @@
 ---
 publishDate: 2023-01-08T00:00:00Z
 title: Alignment > Autonomy
-description: How much of your r&d spend should be focused on platform work?
-excerpt: have a strategy around what you're building and what role it plays short and long term. Build a tech investment system that reinforces itself. That's why I suggest you spend 50% of your r&d budget on your platform.
+description: Alignment > Autonomy
+excerpt: It's easier to measure and feel high autonomy than it is to measure high alignment. But without alignment, autonomy is squandered.
 nextpost: layerinitis
 ---
 
-Another common question I’m answering working with scaling tech companies is…
+I'm often asked what the worst leadership advice I've ever been given. By far the worst is “hire great people and get out of their way”.
 
-Question: What’s the worst leadership advice you’ve heard?
-
-Answer: By far the worst is “Hire great people and get out of their way”.
-
-![3_1493569299797078020](chapter4-assets/3_1493569299797078020.jpg)
-
-After a year leading engineering at Atlassian [@scottfarkas](https://twitter.com/scottfarkas) told me in my perf review that I was doing ok but wondered why I didn’t talk and involve him more regularly.
+After a year leading engineering at Atlassian [my boss](https://twitter.com/scottfarkas) told me in my perf review that I was doing ok but wondered why I didn’t talk and involve him more regularly.
 My answer was “I thought that was my job — to take away all this crap from you and let you do your CEO thing. I thought you wanted me to be autonomous. I need autonomy.”
 
 He said sure, but you should cheat “and use my brain to help you”
 
+![](/images/autonomy-alignment/align-depth.jpg)
+
 At that point I changed some habits, involved him more in different ways, got over the autonomy complex, and we got a lot more done together. I learned a lot and we made better decisions.
 
-Since then I've hired many leaders and had to repeat the same conversation that [@scottfarkas](https://twitter.com/scottfarkas) had with me over and over and over. It turns out that everyone defaults to expect the wrong version of autonomy.
+Since then I've hired many leaders and had to repeat the same conversation that my boss had with me over and over and over. It turns out that everyone defaults to expect the wrong version of autonomy.
 
 These experiences sent me down a multi-year reflection. Why did I feel like success was maximizing autonomy and showing that I could take care of things without bugging my boss? I prioritized autonomy over alignment. It's a million times easier to measure and feel high autonomy than it is to measure high alignment.
 
@@ -35,7 +31,7 @@ Situational messes.
 
 Much of the alignment process is understanding the mess with others. And then simplifying it and focusing. Alignment is the difference between progress and stagnation. You need a good level of alignment on everything, from culture and architecture to which customers to build for which to not build for.
 
-![3_1493569336182652930](chapter4-assets/3_1493569336182652930.jpg)
+![](/images/autonomy-alignment/diverging.jpg)
 
 And here's the hard part...the second you leave an alignment meeting, you’re mis-aligned again. That’s fine, it’s normal.
 
@@ -53,7 +49,7 @@ Strategy is multi-faceted and evolving. You can discuss this strategy in depth, 
 
 The biggest alignment problem is the gap between how much people think they have to align versus what they should align on. There are many strategic decisions in the "how". eg, what technologies to use, new system vs integration, build in core or in an app.
 
-![3_1493569356487299074](chapter4-assets/3_1493569356487299074.jpg)
+![](/images/autonomy-alignment/align-depth.jpg)
 
 Alignment forces you to talk with your boss and peers to:
 
@@ -71,7 +67,7 @@ But why are we in this predicament of worshipping autonomy more than alignment? 
 
 It isn't.
 
-[@scottfarkas](https://twitter.com/scottfarkas) and [@tobi](https://twitter.com/tobi) let me run the team and implement our strategy fully.
+[Scott](https://twitter.com/scottfarkas) and [Tobi](https://twitter.com/tobi) let me run the team and implement our strategy fully.
 
 But together we frequently dug into the “how” to understand and navigate the nuances of our strategy together and often. Tech companies worship autonomy to distance themselves from any inkling of command-and-control. If you get labelled as micro-managing you're burnt at the stake. But the nuances or organizational problem solving has been lost.
 
@@ -91,11 +87,11 @@ First tip, be clear and open about the types of conversations you need with your
 
 This encourages collaboration and sets the tone of alignment and a strong habit of working together.
 
-![3_1493569393543946240](chapter4-assets/3_1493569393543946240.jpg)
+![](/images/autonomy-alignment/25-50-25.jpg)
 
 Second tip is from Susan Scott, author of “Fierce Conversations,” offers a wonderful alignment model: the Decision Tree.
 
-![3_1493569401177600000](chapter4-assets/3_1493569401177600000.jpg)
+![](/images/autonomy-alignment/tree.jpg)
 
 The decision tree is great as it's a reminder that you don't have to align on everything. Decisions have different costs to unwind. Spend time alignment based on the impact of the decisions.
 

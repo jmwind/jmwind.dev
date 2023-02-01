@@ -12,8 +12,8 @@ Question: What virus infects growing engineering orgs the most?
 
 Answer: Layerinitis. Let me explain...
 
-![3_1477399259829866504](chapter3-assets/3_1477399259829866504.jpg)
-_image adapted from [xkcd](https://xkcd.com/2347/)_
+![3_1477399259829866504](/images/layerinitis/stack.png)
+<sup>\* image adapted from [xkcd](https://xkcd.com/2347/)</sup>
 
 As your eng org grows you have to organize into teams. Companies start with shared ownership of the code base and small project teams that form and disband. It's a good model, but past 50+ engineers that falls apart...
 
@@ -35,13 +35,13 @@ You also likely have PMs matched up to each team and you want them to be as inde
 
 Then you realize that 80% of the projects that introduce new features or capabilities look like this:
 
-![3_1477399273419403267](chapter3-assets/3_1477399273419403267.jpg)
+![3_1477399273419403267](/images/layerinitis/stack-projects.jpg)
 
 But the code is always added at the top of your stack. This is a very human response by teams, you have incentives aligned to ship fast at the teams level and it's much easier to measure that vs if the code in the right spot for the long term health of your system.
 
 The technical definition for layerinitis is teams putting code where they are most comfortable while optimizing for speed vs putting the code where it belongs when considering a longer term perspective on the overall software system.
 
-It's very easy to diagnose, so that's great news. Ask teams where the code should go for their project if they break down the capabilities they are introducing with their project into the model introduced here: [twitter.com/jmwind/status/…](https://twitter.com/jmwind/status/1470894712538103813?s=20)
+It's very easy to diagnose, so that's great news. Ask teams where the code should go for their project if they break down the capabilities they are introducing with their project into the model introduced here in [Chapter 2 about platform investments](https://twitter.com/jmwind/status/1470894712538103813?s=20).
 
 Let's pause a second. Layerinitis isn't bad, it's a virus that every org will get. We've all been there. But there are cultural, process, and tooling tricks you can implement that will prevent layerinitis from crippling your teams.
 
@@ -63,11 +63,11 @@ There's another big side effect of using prototypes as a way to dampen layerinit
 
 Once you have a few good cultural habits, the next change that helps is a process one. Ensure you have enough flexibility in your roadmaps to put people from across different layers of your stack onto the projects that need them...
 
-...this may sound trivial, but every company has an army of people managing crazy gantt charts that will explode when re-jiggle people. But do it anyway.
+...this may sound trivial, but every company has an army of people managing crazy gantt charts that will explode when re-jiggle people. These charts are intimidating, and more so are the people garding them with their life. But do it anyway. Because that Gantt chart is a lie anyway. If the code isn't put in the right spot you're not just messing up a perfect plan, but more importantly you're not going to build what's needed and mortgaging your future.
+
+![3_1477399291928866816](/images/layerinitis/gantt.png)
 
 You had one job as a manager... put the right skills on the right projects. Period.
-
-![3_1477399291928866816](chapter3-assets/3_1477399291928866816.jpg)
 
 The next layerinitis defence is standardizing access and setup of any code base in your company. You should have the same command to setup a dev environment, test, tools for every code base.
 
