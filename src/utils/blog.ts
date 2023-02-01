@@ -1,4 +1,4 @@
-import { getCollection, getEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import type { Post } from '~/types';
 import { cleanSlug } from './permalinks';
@@ -61,18 +61,6 @@ export const findPostsBySlugs = async (slugs: Array<string>): Promise<Array<Post
     });
     return r;
   }, []);
-};
-
-/** */
-export const findPostsByIds = async (ids: Array<string>): Promise<Array<Post>> => {
-  if (!Array.isArray(ids)) return [];
-
-  return await Promise.all(
-    ids.map(async (id: never) => {
-      const post = await getEntry('blog', id);
-      return await getNormalizedPost(post);
-    })
-  );
 };
 
 /** */
