@@ -22,7 +22,6 @@ const {
   highlight,
   items = [],
 } = Astro.props;
-
 ---
 
 <section class="snap-start bg-primary-50 dark:bg-slate-800" id="features">
@@ -36,11 +35,11 @@ const {
               set:html={highlight}
             />
           )}
-          {title && (            
+          {title && (
             <h2
               class="text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-4 font-heading"
               set:html={title}
-            />          
+            />
           )}
 
           {subtitle && (
@@ -52,25 +51,28 @@ const {
     <div class="grid mx-auto space-y-6 md:grid-cols-2 md:space-y-0">
       {
         items.map((item) => (
-          <div class="space-y-8 py-2 sm:px-8">            
-              <div class="flex flex-row max-w-md">
-                <div class="mb-4 mr-4">
-                  <div class="flex items-center justify-center w-12 h-12 rounded-full bg-primary-800 dark:bg-primary-700">
-                    {item.icon && <Icon name={item.icon} class="w-6 h-6 text-white icon-light" />}
-                  </div>
+          <div class="space-y-8 py-2 sm:px-8">
+            <div class="flex flex-row max-w-md">
+              <div class="mb-4 mr-4">
+                <div class="flex items-center justify-center w-12 h-12 rounded-full bg-primary-800 dark:bg-primary-700">
+                  {item.icon && <Icon name={item.icon} class="w-6 h-6 text-white icon-light" />}
                 </div>
-                <div>
-                  <h3 class="mb-3 text-xl font-bold">
+              </div>
+              <div>
+                <h3 class="mb-3 text-xl font-bold">
+                  {item.href && (
                     <a
                       href={getPermalink(item.href, 'blog')}
                       class="hover:text-primary-800 dark:hover:text-primary-700  transition ease-in duration-200"
                     >
-                    {item.title}
+                      {item.title}
                     </a>
-                  </h3>
-                  <p class="text-gray-600 dark:text-slate-400" set:html={item.description} />
-                </div>
-              </div>            
+                  )}
+                  {!item.href && item.title}
+                </h3>
+                <p class="text-gray-600 dark:text-slate-400" set:html={item.description} />
+              </div>
+            </div>
           </div>
         ))
       }

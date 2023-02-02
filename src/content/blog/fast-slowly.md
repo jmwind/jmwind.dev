@@ -44,6 +44,8 @@ There are so many small/med decisions being made over and over that aren’t key
 
 ![1](/images/fast-slowly/autonomy-cohesiveness-chart.png)
 
+## Speed Roadmap
+
 Let's make this more concrete and run an exercise called the “Company Speed Roadmap”. It helps you take a step back and look at what you can invest in to go fast fast and fast slowly.
 
 Start by writing down the last 7-10 initiatives that have either shipped or are shipping in your team or company.
@@ -62,51 +64,50 @@ These categories can help you look at your projects from different points of vie
 - Difficulty
 - Quality
 
-_Leadership_
+#### Leadership
 
 Did you have a strong/full time leader? Did the senior team ensure timely decisions on product/scope/tech? Did the leaders know how to unblock decisions? Was the leader(s) full time on this initiative or balancing many others?
 
-_Aiming_
+#### Aiming
 
 Did the team take the initiative in the right direction? How long did it take to find the direction? Was scope well defined or took too long to settle on? Did they aim ambitiously enough?
 
-_Staffing_
+#### Staffing
 
 Did you have the right mix and amount of people at the right time (too little too late, or too many too early)? Was there an expertise that was missing that caused slow down or quality issues? Did the team work well together? Where did the team spend the most time?
 
-_Difficulty_
+#### Difficulty
 
 Was this harder to implement than expected? Where did the code go? Did it require new primitives, complex areas of the code, cross-cutting changes across the product? Did the team have to build a lot of scaffolding, infrastructure and tools as part of this project?
 
-_Quality_
+#### Quality
 
 Once the team built the right thing, was it high or low quality (UX, resiliency, speed, scale)? What impacted the quality of the output the most?
 
 When I run this exercise with teams, I suggest they make as many fast fixes as they do slow fixes. The goal is two-fold: make the hard decisions that impact speed today, and ensure you invest in the long term slow fixes as well.
 It also has a hidden benefit of aligning a team on their “speed” expectations.
 
-Here are some examples of fast and slow fixes:
+Below are some examples of common speed issues with suggestions for fast and slow fixes. There's no right answer in terms of favouring the fast or slow fix, but what's needed is a decision to do something about them instead of praying that they resolve themselves.
 
-Leadership: Didn't have a leader with enough context and decisions were slow.
+**Leadership**: You didn't have a leader with enough context and decisions were slow.
 
-Fast Fix: Move someone from another team to take the role. Requires tradeoff and prioritization that is hard.
+- _Fast Fix_: Move someone from another team to take the role. Requires tradeoff and prioritization that is hard.
+- _Slow Fix_: Leadership development programs are lacking, there is no paired leadership culture, onboarding for leaders is missing.
 
-Slow Fix: Leadership development programs are lacking, there is no paired leadership culture, onboarding for leaders is missing.
+**Difficulty**: The amount of changes required across the code base was a surprise and took a lot longer than expected.
 
-Difficulty: The amount of changes required across the code base was a surprise and took a lot longer than expected.
+- _Fast Fix_: Create your own service/system and duplicate code
+- _Slow Fix_: Prototype at the start of the project and help inform scope of project or gaps in architecture that may need more people or different sequencing of work.
 
-Fast Fix: Create your own service/system and duplicate code
+**Staffing**: We had the right people but they weren't familiar with the tech stack and tools for this area.
 
-Slow Fix: Prototype at the start of the project and help inform scope of project or gaps in architecture that may need more people or different sequencing of work.
-
-Staffing: We had the right people but they weren't familiar with the tech stack and tools for this area.
-
-Fast fix: None
-
-Slow Fix: Standardize the dev envs & tools across teams to make it easier to move people between areas. Invest in hack-a-thons for developers to work in other areas of the code base more regularly.
+- _Fast fix_: Stop or slow down other projects and move the right skill to the right projects.
+- _Slow Fix_: Standardize the dev envs & tools across teams to make it easier to move people between areas. Invest in hack-a-thons for developers to work in other areas of the code base more regularly.
 
 After the exercise you'll have a great insight as a team into how you see speed and the tools you can use to address today and into the future. Think of this as your "speed" roadmap.
 But some of the slowest engineering teams I've met have decided to let teams do their thing and recovery takes years.
+
+## Engineering platfrom cohesiveness
 
 Cohesiveness is hard, culturally because of strongly held opinions of a few people on your team. It’s also hard because in some cases you also have to decide what to leave up to the teams and not standardized. But teams who do this hard work will benefit.
 
@@ -131,6 +132,4 @@ We’ve all been stuck with that stupid “old process that doens’t work” or
 Autonomy is a great tool for exploring and testing new ideas quickly.
 
 You get speed by consistently working on autonomy and cohesiveness initiatives.
-When you start to slow down because of too much autonomy is when you start getting the benefits of cohesion investments.
-
-Teams I work with that do both well are 1.5-2x faster than others that don’t.
+When you start to slow down because of too much autonomy is when you start getting the benefits of cohesion investments. Teams I work with that do both well are 1.5-2x faster than others that don’t.

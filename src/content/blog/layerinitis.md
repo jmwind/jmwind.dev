@@ -6,38 +6,34 @@ excerpt: Layerinitis is when teams put code where they are most comfortable whil
 nextpost: autonomy-alignment
 ---
 
-Another common question I’m answering working with scaling tech companies is…
+Layerinitis is the virus infects growing engineering orgs the most.
 
-Question: What virus infects growing engineering orgs the most?
-
-Answer: Layerinitis. Let me explain...
+As your eng org grows you have to organize into teams. Companies start with shared ownership of the code base and small project teams that form and disband. It's a good model, but past 50+ engineers that falls apart...
 
 ![3_1477399259829866504](/images/layerinitis/stack.png)
 <sup>\* image adapted from [xkcd](https://xkcd.com/2347/)</sup>
 
-As your eng org grows you have to organize into teams. Companies start with shared ownership of the code base and small project teams that form and disband. It's a good model, but past 50+ engineers that falls apart...
+In 2015 at Shopify there was a busy file called api_client.rb. I decided to look up the last 20 committers and talk about the reason for changes they made. Everyone was adding new attributes, but when asked why the answer was "I was just following what the previous committer did" an "had a deadline".
 
-In 2015 at Shopify there was a busy file called api_client.rb. I spoke to the last 20 committers. Everyone was adding new attributes, but when asked why the answer was "I was just following what the previous committer did" an "had a deadline".
+The design philosophy of that entire area of Shopify was shared across everyone. But there was no real owner or steward. As they say, the fastest way to starve a horse is to ask two people to feed it.
 
-The design philosophy of that entire area of Shopify was shared across everyone. But there was no real owner or steward. As they say... the fastest way to starve a horse is to ask two people to feed it.
+So as you'd expect, as your org grows, you create teams that have stewardship for areas of your product. So that there's some architectural vision and stewardship about different areas. Not to mention that many gnarly and complex areas take time to master and you need continuity in knowledge.
 
-So as you'd expect, as your org grows, you create teams that have stewardship for areas of your product.
+There's a lot of [research](https://www.microsoft.com/en-us/research/publication/code-ownership-and-software-quality-a-replication-study/) that shows that code ownership increases the quality of software.
 
-There's a lot of research that shows that code ownership increases the quality of software. [microsoft.com/en-us/research](https://www.microsoft.com/en-us/research/publication/code-ownership-and-software-quality-a-replication-study/)
+Now that you're in teams by subsystem, you think you've got everything figured out. You define boundaries in your software, modularity is good. You can reduce dependencies with good APIs, practice DDD, and increase the overall quality all at once. You're winning! That was easy... right?
 
-At this point you think you've got everything figured out. You define boundaries in your software, modularity is good. You can reduce dependencies with good APIs, DDD, and increase the overall quality all at once. You're winning! That was easy... right?
-
-We modularized somewhat retroactively at Shopify (read about it [shopify.engineering/deconstructing…](https://shopify.engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity)) and we started with a modular architecture at [Eclipse.org](http://Eclipse.org) in 2000.
+We [modularized](https://shopify.engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity), albeit somewhat retroactively, at Shopify. But it increased the quality of the product and people knew who to talk with about different areas.
 
 But what you didn't realize is that layerinitis has been lurking just waiting to attack your org. It's triggered right at that moment when you think you have the perfect architecture and team structure. And it hits hard.
 
-You also likely have PMs matched up to each team and you want them to be as independent as possible. You want to stay fast and nimble and your incentives are aligned for that (promotions, raises)...
+You also likely have PMs matched up to each team and you want them to be as independent as possible. You want to stay fast and nimble and your incentives are aligned for that (promotions, raises).
 
-Then you realize that 80% of the projects that introduce new features or capabilities look like this:
+Then you realize that 80% of the projects that introduce new features or capabilities look like the diagram below. They don't fit nicely into one layer of your stack, they cross several.
 
 ![3_1477399273419403267](/images/layerinitis/stack-projects.jpg)
 
-But the code is always added at the top of your stack. This is a very human response by teams, you have incentives aligned to ship fast at the teams level and it's much easier to measure that vs if the code in the right spot for the long term health of your system.
+Then you noticed that new code is always added at the top of your stack. This is a very human response by teams, you have incentives aligned to ship fast at the teams level and it's much easier to measure that vs if the code in the right spot for the long term health of your system.
 
 The technical definition for layerinitis is teams putting code where they are most comfortable while optimizing for speed vs putting the code where it belongs when considering a longer term perspective on the overall software system.
 
@@ -57,13 +53,13 @@ We often forget that prototyping isn't just about finding a good architecture or
 
 I've seen so many teams that replace prototypes with roadmaps. Then they stop building to learn. And now they have roadmaps with no substance. It's a vicious circle.
 
-There's another big side effect of using prototypes as a way to dampen layerinitis. Often the prototype team end of digging into platform / infra level areas that are often owned by small teams. Those teams really appreciate having more people learn about their areas...
+There's another big side effect of using prototypes as a way to dampen layerinitis. Often the prototype team end of digging into platform / infra level areas that are often owned by small teams. Those teams really appreciate having more people learn about their areas.
 
-...over time I've seen a healthy growth of morale and committers across different layers just by encouraging more cross-layer prototype at the start of large projects. And that builds more long term resiliency of knowledge across your teams.
+Over time I've seen a healthy growth of morale and committers across different layers just by encouraging more cross-layer prototype at the start of large projects. And that builds more long term resiliency of knowledge across your teams.
 
 Once you have a few good cultural habits, the next change that helps is a process one. Ensure you have enough flexibility in your roadmaps to put people from across different layers of your stack onto the projects that need them...
 
-...this may sound trivial, but every company has an army of people managing crazy gantt charts that will explode when re-jiggle people. These charts are intimidating, and more so are the people garding them with their life. But do it anyway. Because that Gantt chart is a lie anyway. If the code isn't put in the right spot you're not just messing up a perfect plan, but more importantly you're not going to build what's needed and mortgaging your future.
+This may sound trivial, but every company has an army of people managing crazy gantt charts that will explode when re-jiggle people. These charts are intimidating, and more so are the people garding them with their life. But do it anyway. Because that Gantt chart is a lie anyway. If the code isn't put in the right spot you're not just messing up a perfect plan, but more importantly you're not going to build what's needed and mortgaging your future.
 
 ![3_1477399291928866816](/images/layerinitis/gantt.png)
 

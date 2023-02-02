@@ -2,19 +2,15 @@
 publishDate: 2023-01-08T00:00:00Z
 title: Platform Investments
 description: How much of your r&d spend should be focused on platform work?
-excerpt: Build a tech investment system that reinforces itself. While it's controversial, I suggest you spend 50% of your r&d budget on your platform.
+excerpt: It's controversial, but I suggest you spend 50% of your r&d budget on your platform. Build a tech investment system that reinforces itself.
 nextpost: layerinitis
 ---
 
 Once a company crosses the threshold of product market fit, your company won't die of starvation but will die of indigestion. Deciding where you invest is the hardest part of your job.
 
-Another common question I’m answering working with scaling tech companies is…
+As an engineering leader, it's important that you see your main role as the product owner of some the most important features of your product. You'll own the uptime, scale, performance, extensibility, apis, quality, and evolvability of your product. These aren't technical details, they are the foundations for your product. Your customers will leave if these suck.
 
-Question: How much of your r&d spend should be focused on platform work?
-
-Answer: 50%, and most teams are way off what it should be. Let me explain...
-
-This question is a proxy question for many underlying issues…
+I hear endless questions about tech debt, but that is a proxy question for many underlying issues…
 
 - Lack of trust in the engineering team
 - Lack of understand of your strategy
@@ -23,7 +19,7 @@ This question is a proxy question for many underlying issues…
 
 This comes up is often in panic situations, “the engineering team says that there’s too much technical debt and can’t work on features”… but the problems started way before.
 
-Let’s step back… what is meant by platform? Its definition has changed over the decades and we can’t talk about platform investments without a shared definition.
+Let’s step back and dig into what I mean by platform. Its definition has changed over the decades and we can’t talk about platform investments without a shared definition.
 
 Platform used to mean a complete software development environment and underlying subsystem with language, runtime, components and all associated libraries and binaries. Only the big guys had one, Windows, iOS, Linux, Eclipse – and then platforms became mainstream.
 

@@ -6,7 +6,9 @@ excerpt: It's easier to measure and feel high autonomy than it is to measure hig
 nextpost: layerinitis
 ---
 
-I'm often asked what the worst leadership advice I've ever been given. By far the worst is “hire great people and get out of their way”.
+I'm often asked about the worst leadership advice I've ever been given. By far the worst is “hire great people and get out of their way”.
+
+This one will take some explaining... so let's start at the start.
 
 After a year leading engineering at Atlassian [my boss](https://twitter.com/scottfarkas) told me in my perf review that I was doing ok but wondered why I didn’t talk and involve him more regularly.
 My answer was “I thought that was my job — to take away all this crap from you and let you do your CEO thing. I thought you wanted me to be autonomous. I need autonomy.”
@@ -73,7 +75,7 @@ But together we frequently dug into the “how” to understand and navigate the
 
 Without alignment, autonomy is squandered.
 
-Even after all this, I messed up again in 2015 when starting at Shopify. [@tobi](https://twitter.com/tobi) gave me the same feedback again… I’m a slow learner.
+Even after all this, I messed up again in 2015 when starting at Shopify. Tobi gave me the same feedback again… I’m a slow learner.
 
 At that point I told myself... You HAVE to take responsibility for alignment. It’s YOUR job, as much as your bosses. I've became very upfront about alignment with new hires. Gist of our first conversation is:
 
