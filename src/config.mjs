@@ -1,4 +1,4 @@
-import defaultImage from './assets/images/default.png';
+import defaultImage from './assets/images/logo.webp';
 
 const CONFIG = {
   name: 'Build Right Side - by Jean-Michel Lemieux',
@@ -8,7 +8,7 @@ const CONFIG = {
   trailingSlash: false,
 
   title: 'Build Right Side — by Jean-Michel Lemieux',
-  description: 'Helping nerds build companies, products, and platforms at scale',
+  description: 'Helping build companies, products, and platforms at scale',
   defaultImage: defaultImage,
 
   defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
