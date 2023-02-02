@@ -1,14 +1,13 @@
 import defaultImage from './assets/images/brs-card.png';
 
 const CONFIG = {
-  name: 'Build Right Side - by Jean-Michel Lemieux',
-
+  name: 'Build Right Side',
   origin: 'https://buildrightside.com',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'Build Right Side — by Jean-Michel Lemieux',
-  description: 'Helping build companies, products, and platforms at scale',
+  title: 'Engineering Leadership, the hard parts — by Jean-Michel Lemieux',
+  description: 'Helping you see and make the hard decisions that build great engineering organizations and companies.',
   defaultImage: defaultImage,
 
   defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
