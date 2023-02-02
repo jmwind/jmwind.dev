@@ -1,11 +1,6 @@
 ---
-import Icon from 'astro-icon';
 import { Picture } from '@astrojs/image/components';
-
-import PostTags from '~/components/common/Tags.astro';
-import SocialShare from '~/components/common/SocialShare.astro';
 import { getPermalink } from '~/utils/permalinks';
-
 import type { Post } from '~/types';
 
 export interface Props {
@@ -19,7 +14,6 @@ const { post, url } = Astro.props;
 <section class="py-8 sm:py-16 lg:py-20 mx-auto">
   <article>
     <header class={post.image ? '' : ''}>
-     
       <h1
         class="px-4 sm:px-6 max-w-3xl mx-auto text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading"
       >
@@ -28,11 +22,11 @@ const { post, url } = Astro.props;
       <p
         class="max-w-3xl mx-auto mt-4 mb-8 px-4 sm:px-6 text-xl md:text-2xl text-gray-500 dark:text-slate-400 font-medium text-justify"
       >
-        {post.excerpt}
+        {post.description}
       </p>
 
       {
-        post.image ? (
+        post.image && false ? (
           <Picture
             src={post.image}
             class="max-w-full lg:max-w-6xl mx-auto mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700"
@@ -67,14 +61,17 @@ const { post, url } = Astro.props;
     </div>
     <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-8 grid justify-items-end sm:flex-row">
       {
-      post.nextpost ? (
-        <a
-          href={getPermalink(post.nextpost, 'blog')}
-          class="hover:text-primary-800 dark:hover:text-primary-700 text-xl transition ease-in duration-200">
+        post.nextpost ? (
+          <a
+            href={getPermalink(post.nextpost, 'blog')}
+            class="hover:text-primary-800 dark:hover:text-primary-700 text-xl transition ease-in duration-200"
+          >
             Next Chapter &gt;
-        </a>
-        ) : (<p>The end, for now...</p>)
-      }      
+          </a>
+        ) : (
+          <p>The end, for now...</p>
+        )
+      }
     </div>
   </article>
 </section>

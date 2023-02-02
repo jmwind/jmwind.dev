@@ -1,9 +1,9 @@
 ---
 publishDate: 2023-01-08T00:00:00Z
 title: Alignment > Autonomy
-description: Alignment > Autonomy
-excerpt: It's easier to measure and feel high autonomy than it is to measure high alignment. But without alignment, autonomy is squandered.
-nextpost: layerinitis
+description: It's easier to measure and feel high autonomy than it is to measure high alignment. But without alignment, autonomy is squandered.
+image: ~/assets/images/align-depth.jpg
+nextpost: fast-slowly
 ---
 
 I'm often asked about the worst leadership advice I've ever been given. By far the worst is “hire great people and get out of their way”.

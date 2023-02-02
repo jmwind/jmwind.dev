@@ -1,9 +1,9 @@
 ---
 publishDate: 2023-01-08T00:00:00Z
 title: Platform Investments
-description: How much of your r&d spend should be focused on platform work?
-excerpt: It's controversial, but I suggest you spend 50% of your r&d budget on your platform. Build a tech investment system that reinforces itself.
+description: It's controversial, but I suggest you spend 50% of your r&d budget on your platform. Build a tech investment system that reinforces itself.
 nextpost: layerinitis
+image: ~/assets/images/exp-fea-plat.png
 ---
 
 Once a company crosses the threshold of product market fit, your company won't die of starvation but will die of indigestion. Deciding where you invest is the hardest part of your job.

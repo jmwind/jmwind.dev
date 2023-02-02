@@ -1,9 +1,8 @@
 ---
 publishDate: 2023-01-08T00:00:00Z
 title: The Problem Upgrade Chart
-description: How do you handle/manage the stress of working in a hyper-growth company where there's always too much to do?
-excerpt: We measure our self-worth with problems going away. But what if they don't?
-canonical: https://buildrightside.com/problem-upgrade-chart
+description: We measure our self-worth with problems going away. But what if they don't?
+image: ~/assets/images/chart.png
 nextpost: platform-investments
 ---
 

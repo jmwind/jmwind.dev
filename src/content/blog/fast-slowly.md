@@ -1,9 +1,9 @@
 ---
 publishDate: 2023-01-08T00:00:00Z
 title: Going fast slowly
-description: Going fast slowly
-excerpt: Autonomy is great. But as you scale, the speed impact of only investing in getting fast fast will in fact slow you to a crawl.
-nextpost: layerinitis
+description: Autonomy is great. But as you scale, the speed impact of only investing in getting fast fast will in fact slow you to a crawl.
+nextpost: problem-solving-vs-planning
+image: ~/assets/images/autonomy-cohesiveness-chart.png
 ---
 
 Andy Jassy, the CEO of Amazon, was on the cover of Time magazine in 2022. He talks about Amazon staying fast and how autonomy has been their most important tool.

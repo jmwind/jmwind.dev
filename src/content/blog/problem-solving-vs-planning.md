@@ -1,9 +1,7 @@
 ---
 publishDate: 2023-01-08T00:00:00Z
 title: Problem solving vs problem planning
-description: Problem solving vs problem planning
-excerpt: Planning is important, but most planning is wasted time. Focus on building a problem solving culture and not a problem planning one.
-nextpost: layerinitis
+description: Planning is important, but most planning is wasted time. Focus on building a problem solving culture and not a problem planning one.
 ---
 
 There are a million details that impact how well a company can take an idea and get it into a product. We've all memorized the old saying that building anything is 1% inspiration and 99% persperation. When I start working with a new company, digging into the "how do you ship" is the best way to get to know the team.
