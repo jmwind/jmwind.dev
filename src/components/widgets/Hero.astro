@@ -1,0 +1,46 @@
+---
+import { Icon } from 'astro-icon';
+import { Picture } from '@astrojs/image/components';
+
+interface CallToAction {
+  text: string;
+  href: string;
+  icon?: string;
+}
+
+export interface Props {
+  title?: string;
+  subtitle?: string;
+  callToAction?: string | CallToAction;
+  callToAction2?: string | CallToAction;
+  image?: string | any; // TODO: find HTMLElementProps
+}
+
+const {
+  title = await Astro.slots.render('title'),
+  subtitle = await Astro.slots.render('subtitle'),
+  callToAction = await Astro.slots.render('callToAction'),
+  callToAction2 = await Astro.slots.render('callToAction2'),
+  image = await Astro.slots.render('image'),
+} = Astro.props;
+---
+
+<section>
+  <div class="max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="py-12 md:py-20">
+      <div class="text-center pb-10 md:pb-16 max-w-5xl mx-auto">
+        {
+          title && (
+            <h1
+              class="text-5xl md:text-[3.50rem] font-bold leading-tighter tracking-tighter mb-4 font-heading"
+              set:html={title}
+            />
+          )
+        }
+        <div class="max-w-3xl mx-auto">
+          {subtitle && <p class="text-xl font-medium text-gray-500 mb-8 dark:text-slate-400" set:html={subtitle} />}          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
