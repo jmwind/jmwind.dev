@@ -1,4 +1,4 @@
-import defaultImage from './assets/images/logo.webp';
+import defaultImage from './assets/images/brs-card.png';
 
 const CONFIG = {
   name: 'Build Right Side - by Jean-Michel Lemieux',
