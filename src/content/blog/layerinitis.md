@@ -1,7 +1,7 @@
 ---
 publishDate: 2023-01-08T00:00:00Z
 title: Layerinitis
-excerpt: Layerinitis is when teams put code where they are most comfortable while optimizing for speed vs putting the code where it belongs when considering a longer term perspective on the overall software system.
+description: Layerinitis is when teams put code where they are most comfortable while optimizing for speed vs putting the code where it belongs when considering a longer term perspective on the overall software system.
 nextpost: autonomy-alignment
 image: ~/assets/images/stack.png
 ---
