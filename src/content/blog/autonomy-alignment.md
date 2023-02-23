@@ -57,7 +57,7 @@ Alignment forces you to talk with your boss and peers to:
 
 - define a strategy, narrow focus
 - communicate it clearly together
-- and ensure you're hired enough people who "get it" and can fill in the implementation details with their teams
+- and ensure you've hired enough people who appreciate the value and difficulty of alignment and can fill in the implementation details with their teams
 
 So...when you hire someone or you have a new leader, your number one job is alignment. And you do this continuously. It’s definitely never going to be “hire them and get out of their way”.
 
