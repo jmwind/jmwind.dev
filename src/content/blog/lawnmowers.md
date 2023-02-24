@@ -1,7 +1,7 @@
 ---
 publishDate: 2023-01-08T00:00:00Z
 title: Lawnmower Managers
-description:
+description: Managing in this adult-accepting culture is a more rewarding job, and you can teach via the complex work that’s needed. You’ll have better managers for it.
 nextpost: time-horizon-friction
 image: ~/assets/images/lawnmower.png
 ---
