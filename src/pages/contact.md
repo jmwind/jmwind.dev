@@ -9,7 +9,7 @@ My DMs are always open. [Twitter](https://twitter.com/jmwind) ⎮ [LinkedIn](htt
 
 It doesn't cost much to ignore DMs, so instead I optimize to hear from anyone. I've met amazing people in my DMs and some are still friends. You learn a ton. I love the internet!
 
-I can't promise to get back to everyone. If I'm programming, writing, or or sailing, it's quite possible that there's no time. But I'll read everything at some point and who knows.
+I can't promise to get back to everyone. If I'm programming, writing, or sailing, it's quite possible that there's no time. But I'll read everything at some point and who knows.
 
 ### How can I help?
 
