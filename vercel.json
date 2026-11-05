@@ -1,15 +1,44 @@
 {
+  "framework": null,
+  "buildCommand": "",
+  "installCommand": "",
+  "outputDirectory": ".",
   "cleanUrls": true,
   "trailingSlash": false,
-  "headers": [
+  "redirects": [
     {
-      "source": "/assets/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
+      "source": "/blog",
+      "destination": "/"
+    },
+    {
+      "source": "/blog/:path*",
+      "destination": "/"
+    },
+    {
+      "source": "/category/:path*",
+      "destination": "/"
+    },
+    {
+      "source": "/tag/:path*",
+      "destination": "/"
+    },
+    {
+      "source": "/privacy",
+      "destination": "/"
+    },
+    {
+      "source": "/terms",
+      "destination": "/"
+    },
+    {
+      "source": "/:slug(problem-upgrade-chart|platform-investments|layerinitis|autonomy-alignment|fast-slowly|problem-solving-vs-planning|lawnmowers|time-horizon-friction)",
+      "destination": "/book/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/images/:dir(problem-upgrade-chart|platform-investments|layerinitis|autonomy-alignment|fast-slowly|problem-solving-vs-planning|lawnmower)/:file",
+      "destination": "/book/images/:dir/:file",
+      "permanent": true
     }
   ]
 }
