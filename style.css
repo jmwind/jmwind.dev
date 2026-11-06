@@ -36,61 +36,32 @@ a[aria-current='page'] {
   text-decoration: none;
 }
 
-/* Table of contents, pinned left */
+/* Header on every page. Rendered by header.js. */
 
-nav {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 300px;
-  overflow-y: auto;
-  padding: 40px 24px 40px 32px;
-  border-right: 1px solid var(--rule);
+header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  margin-bottom: 48px;
   font-size: 15px;
-  line-height: 1.4;
 }
 
-nav .name {
-  margin: 0;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-nav .name a {
+header .name {
+  margin-right: auto;
   color: var(--ink);
+  font-weight: bold;
   text-decoration: none;
 }
 
-nav h3 {
-  margin: 28px 0 6px;
-  font-size: 15px;
+/* One column */
+
+site-header {
+  display: block;
 }
 
-nav ul {
-  margin: 0;
-  padding-left: 22px;
-}
-
-nav li {
-  margin: 4px 0;
-}
-
-nav .soon {
-  list-style: none;
-  color: var(--muted);
-  font-style: italic;
-}
-
-/* Reading column */
-
-main {
-  margin-left: 300px;
-  padding: 40px 48px 96px;
-}
-
-article {
-  max-width: 36em;
+body {
+  max-width: calc(36em + 96px);
+  padding: 32px 48px 96px;
 }
 
 h1 {
@@ -100,7 +71,7 @@ h1 {
 }
 
 h2 {
-  margin: 36px 0 8px;
+  margin: 16px 0 8px;
   font-size: 20px;
 }
 
@@ -123,31 +94,40 @@ sup {
   color: var(--muted);
 }
 
+.toc {
+  padding-left: 28px;
+}
+
+.toc li {
+  margin: 0 0 14px;
+}
+
+.toc p {
+  margin: 2px 0 0;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.toc .soon {
+  list-style: none;
+  color: var(--muted);
+  font-style: italic;
+}
+
 .next {
   margin-top: 48px;
   padding-top: 16px;
   border-top: 1px solid var(--rule);
 }
 
-/* Phones: the list follows the page instead of being pinned */
+/* Phones */
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   body {
-    display: flex;
-    flex-direction: column;
+    padding: 20px 16px 64px;
   }
 
-  nav {
-    order: 1;
-    position: static;
-    width: auto;
-    padding: 24px 16px 48px;
-    border-right: 0;
-    border-top: 1px solid var(--rule);
-  }
-
-  main {
-    margin-left: 0;
-    padding: 24px 16px 64px;
+  header {
+    margin-bottom: 32px;
   }
 }
