@@ -59,9 +59,42 @@ site-header {
   display: block;
 }
 
+html {
+  background: var(--paper);
+}
+
 body {
   max-width: calc(36em + 96px);
+  margin: 0 auto;
   padding: 32px 48px 96px;
+}
+
+/* Desktop: bigger type and a wider column, centered */
+
+@media (min-width: 1000px) {
+  body {
+    max-width: calc(42em + 128px);
+    padding: 56px 64px 128px;
+    font-size: 19px;
+    line-height: 1.5;
+  }
+
+  header {
+    margin-bottom: 72px;
+    font-size: 17px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .toc p {
+    font-size: 19px;
+  }
 }
 
 h1 {
@@ -105,7 +138,7 @@ sup {
 .toc p {
   margin: 2px 0 0;
   color: var(--muted);
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .toc .soon {
